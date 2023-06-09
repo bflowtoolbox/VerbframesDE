@@ -1,0 +1,2191 @@
+[
+{"id": 1, "name": "Kommunikation", "subsets": [
+	{"id": 2, "name": "sein, ansprechbar", "type": "be"},
+	{"id": 3, "name": "Antwort", "subsets": [
+		{"id": 4, "name": "antworten", "type": "act", "subsets": [
+			{"id": 5, "name": "geben, Auskunft", "type": "act"}
+		]},
+		{"id": 6, "name": "erhalten, Antwort", "type": "act"},
+		{"id": 7, "name": "bleiben, unbeantwortet", "type": "be"}
+	]},
+	{"id": 8, "name": "Nachricht", "subsets": [
+		{"id": 9, "name": "übersenden, Nachricht", "type": "act", "subsets": [
+			{"id": 10, "name": "absenden, Nachricht", "type": "act"},
+			{"id": 11, "name": "einholen, Rückmeldung", "type": "act"},
+			{"id": 12, "name": "(etw.) signalisieren", "type": "act"},
+			{"id": 13, "name": "anpiepsen", "type": "act"},
+			{"id": 14, "name": "geben, Rückmeldung", "type": "act"},
+			{"id": 15, "name": "einreichen", "type": "act"},
+			{"id": 16, "name": "setzen, Status", "type": "act"},
+			{"id": 17, "name": "nachschicken", "type": "act"},
+			{"id": 18, "name": "mitschicken", "type": "act"}
+		]},
+		{"id": 19, "name": "erhalten, Nachricht", "type": "act"},
+		{"id": 20, "name": "eingehen, Nachricht", "type": "act"},
+		{"id": 21, "name": "weiterleiten, Nachricht", "type": "act", "subsets": [
+			{"id": 22, "name": "umleiten", "type": "act"}
+		]}
+	]},
+	{"id": 23, "name": "aufnehmen, Kontakt", "type": "act", "subsets": [
+		{"id": 24, "name": "treten, in Dialog", "type": "act"}
+	]},
+	{"id": 25, "name": "stehen, in Kontakt", "type": "be"},
+	{"id": 26, "name": "bringen, in Kontakt", "type": "be"},
+	{"id": 27, "name": "Informationsfluss", "subsets": [
+		{"id": 28, "name": "einholen, Information", "type": "act", "subsets": [
+			{"id": 29, "name": "(jmdn.) befragen", "type": "act"},
+			{"id": 30, "name": "durchführen, Umfrage", "type": "act"},
+			{"id": 31, "name": "nehmen, Rücksprache", "type": "act"},
+			{"id": 32, "name": "hinhören", "type": "act"}
+		]},
+		{"id": 33, "name": "geben, Information", "type": "act", "subsets": [
+			{"id": 34, "name": "verkünden, Information", "type": "act"},
+			{"id": 35, "name": "anzeigen", "type": "be"},
+			{"id": 36, "name": "(jmdm. etw.) eröffnen", "type": "act"},
+			{"id": 37, "name": "bestätigen", "type": "act"}
+		]},
+		{"id": 38, "name": "austauschen, Informationen", "type": "act", "subsets": [
+			{"id": 39, "name": "telefonieren", "type": "act"},
+			{"id": 40, "name": "beraten", "type": "act"},
+			{"id": 41, "name": "debattieren", "type": "act"}
+		]},
+		{"id": 42, "name": "empfehlen", "type": "act"},
+		{"id": 43, "name": "hinweisen", "type": "act"},
+		{"id": 44, "name": "kommentieren", "type": "act"},
+		{"id": 45, "name": "reden", "type": "be"}
+	]},
+	{"id": 46, "name": "behaupten", "type": "act"},
+	{"id": 47, "name": "betonen", "type": "act", "subsets": [
+		{"id": 48, "name": "unterstreichen", "type": "act"}
+	]},
+	{"id": 49, "name": "widerrufen", "type": "act"},
+	{"id": 50, "name": "nehmen, Stellung", "type": "act"},
+	{"id": 51, "name": "(etw.) anmerken", "type": "act"},
+	{"id": 52, "name": "werden, erklärt", "type": "act"},
+	{"id": 53, "name": "ausdrücken", "type": "act"},
+	{"id": 54, "name": "werden, ausgedrückt", "type": "act"},
+	{"id": 55, "name": "melden, sich zu Wort", "type": "act"},
+	{"id": 56, "name": "kommen, zur Sprache", "type": "act", "subsets": [
+		{"id": 57, "name": "anschneiden, ein Thema", "type": "act"}
+	]},
+	{"id": 58, "name": "zur Diskussion stellen", "type": "act"},
+	{"id": 59, "name": "referieren", "type": "act"},
+	{"id": 60, "name": "Erklärung/Begründung/Beweis/Widerlegung", "subsets": [
+		{"id": 61, "name": "begründen", "type": "act"},
+		{"id": 62, "name": "beweisen", "type": "act"},
+		{"id": 63, "name": "erklären", "type": "act", "subsets": [
+			{"id": 64, "name": "(etw.) aufdecken", "type": "act"}
+		]},
+		{"id": 65, "name": "erheben, Beweis", "type": "act"},
+		{"id": 66, "name": "widerlegen", "type": "act"},
+		{"id": 67, "name": "rechtfertigen", "type": "act"},
+		{"id": 68, "name": "stellen, zur Rede", "type": "act"},
+		{"id": 69, "name": "plausibilisieren", "type": "act"},
+		{"id": 70, "name": "schlussfolgern", "type": "act", "subsets": [
+			{"id": 71, "name": "rauslesen", "type": "act"}
+		]},
+		{"id": 72, "name": "verstehen (wie)", "type": "act"}
+	]},
+	{"id": 73, "name": "verhandeln", "type": "act"},
+	{"id": 74, "name": "werden, gehört", "type": "act"},
+	{"id": 75, "name": "zurückrufen", "type": "act"},
+	{"id": 76, "name": "nachfragen", "type": "act"},
+	{"id": 77, "name": "rufen", "type": "act"},
+	{"id": 78, "name": "auflegen", "type": "act"}
+]},
+{"id": 79, "name": "Änderung", "subsets": [
+	{"id": 80, "name": "durchführen, Änderung", "type": "act", "subsets": [
+		{"id": 81, "name": "umwandeln", "type": "act"}
+	]},
+	{"id": 82, "name": "verzeichnen, Änderung", "type": "act"},
+	{"id": 83, "name": "werden, geändert", "type": "become", "subsets": [
+		{"id": 84, "name": "werden, zum Besseren geändert", "type": "act"},
+		{"id": 85, "name": "werden, zum Schlechteren geändert"},
+		{"id": 86, "name": "werden, eingegliedert", "type": "act"}
+	]},
+	{"id": 87, "name": "vereinheitlichen", "type": "act"},
+	{"id": 88, "name": "vorliegen, Änderung", "type": "be"},
+	{"id": 89, "name": "sein, verändert", "type": "be"},
+	{"id": 90, "name": "(sich) ändern", "type": "be", "subsets": [
+		{"id": 91, "name": "auslaufen", "type": "become"}
+	]},
+	{"id": 92, "name": "schwanken", "type": "be", "subsets": [
+		{"id": 93, "name": "oszillieren", "type": "be"},
+		{"id": 94, "name": "pendeln", "type": "be"}
+	]},
+	{"id": 95, "name": "verbessern", "type": "act", "subsets": [
+		{"id": 96, "name": "berichtigen", "type": "act"},
+		{"id": 97, "name": "Reparatur", "subsets": [
+			{"id": 98, "name": "sein, in Reparatur", "type": "be"},
+			{"id": 99, "name": "reparieren", "type": "act"}
+		]},
+		{"id": 100, "name": "machen, rückgängig", "type": "act"},
+		{"id": 101, "name": "nacharbeiten", "type": "act"},
+		{"id": 102, "name": "verzeichnen, Besserung", "type": "act"},
+		{"id": 103, "name": "optimieren", "type": "act"},
+		{"id": 104, "name": "entstören", "type": "act"},
+		{"id": 105, "name": "polieren", "type": "act"},
+		{"id": 106, "name": "(etw. gerade-) richten", "type": "act"},
+		{"id": 107, "name": "verfeinern", "type": "act"}
+	]},
+	{"id": 108, "name": "ändern, zum Schlechteren", "subsets": [
+		{"id": 109, "name": "verschlechtern", "type": "act"}
+	]},
+	{"id": 110, "name": "ändern, nach oben", "subsets": [
+		{"id": 111, "name": "Aufschwung", "subsets": [
+			{"id": 112, "name": "erhalten, Aufschwung", "type": "act"},
+			{"id": 113, "name": "verzeichnen, Aufschwung", "type": "act"}
+		]},
+		{"id": 114, "name": "zunehmen", "type": "become", "subsets": [
+			{"id": 115, "name": "altern", "type": "become"}
+		]},
+		{"id": 116, "name": "anhäufen", "type": "act"},
+		{"id": 117, "name": "vergrößern (in einer Dimension)", "type": "act", "subsets": [
+			{"id": 118, "name": "intensivieren", "type": "act"}
+		]},
+		{"id": 119, "name": "verzeichnen, Steigerung", "type": "act"},
+		{"id": 120, "name": "sein, Steigerung", "type": "be"}
+	]},
+	{"id": 121, "name": "ändern, nach unten", "subsets": [
+		{"id": 122, "name": "verzeichnen, Rückgang", "type": "act"},
+		{"id": 123, "name": "reduzieren", "type": "act"},
+		{"id": 124, "name": "Rückgang erfahren", "type": "become"},
+		{"id": 125, "name": "verknappen", "type": "act"},
+		{"id": 126, "name": "abkühlen", "type": "act"},
+		{"id": 127, "name": "verkleinern", "type": "act", "subsets": [
+			{"id": 128, "name": "abnehmen", "type": "become"},
+			{"id": 129, "name": "verkürzen", "type": "act"},
+			{"id": 130, "name": "dezimieren", "type": "act"},
+			{"id": 131, "name": "schrumpfen", "type": "become"}
+		]}
+	]},
+	{"id": 132, "name": "(etw.) entfernen", "subsets": [
+		{"id": 133, "name": "herausnehmen", "type": "act"},
+		{"id": 134, "name": "löschen", "type": "act"},
+		{"id": 135, "name": "ausradieren", "type": "act"},
+		{"id": 136, "name": "leeren", "type": "act"},
+		{"id": 137, "name": "wegpolieren", "type": "act"},
+		{"id": 138, "name": "wegbekommen", "type": "act"},
+		{"id": 139, "name": "durchstreichen", "type": "act"}
+	]},
+	{"id": 140, "name": "vereinen, zu einem Ganzen", "subsets": [
+		{"id": 141, "name": "zusammenfügen", "type": "act", "subsets": [
+			{"id": 142, "name": "montieren", "type": "act"},
+			{"id": 143, "name": "mischen", "type": "act", "subsets": [
+				{"id": 144, "name": "anmischen", "type": "act"},
+				{"id": 145, "name": "(in einer Flüssigkeit) auflösen", "type": "act"}
+			]},
+			{"id": 146, "name": "schichten", "type": "act"}
+		]},
+		{"id": 147, "name": "zusammensammeln", "type": "act"},
+		{"id": 148, "name": "hineinstecken", "type": "act"},
+		{"id": 149, "name": "eingliedern", "type": "act", "subsets": [
+			{"id": 150, "name": "dazuschütten", "type": "act"},
+			{"id": 151, "name": "hinzunehmen", "type": "act", "subsets": [
+				{"id": 152, "name": "hinzuzählen", "type": "act"}
+			]},
+			{"id": 153, "name": "erfassen", "type": "act"},
+			{"id": 154, "name": "einsortieren", "type": "act"}
+		]},
+		{"id": 155, "name": "einbeziehen", "type": "act"},
+		{"id": 156, "name": "(aneinander) befestigen", "type": "act", "subsets": [
+			{"id": 157, "name": "ankleben", "type": "act"},
+			{"id": 158, "name": "bekleben", "type": "act", "subsets": [
+				{"id": 159, "name": "bezetteln", "type": "act"}
+			]},
+			{"id": 160, "name": "einrasten", "type": "act"},
+			{"id": 161, "name": "verzahnen", "type": "act"}
+		]},
+		{"id": 162, "name": "tackern", "type": "act"},
+		{"id": 163, "name": "heften", "type": "act", "subsets": [
+			{"id": 164, "name": "anheften", "type": "act"}
+		]},
+		{"id": 165, "name": "einkleben", "type": "act"},
+		{"id": 166, "name": "einfüllen", "type": "act"},
+		{"id": 167, "name": "aneinandersetzen", "type": "act"},
+		{"id": 168, "name": "verkleben", "type": "act"},
+		{"id": 169, "name": "hineinpacken", "type": "act"},
+		{"id": 170, "name": "zusammenschweißen", "type": "act"},
+		{"id": 171, "name": "ergänzen/vervollständigen", "type": "act"},
+		{"id": 172, "name": "füllen", "type": "act", "subsets": [
+			{"id": 173, "name": "aufpumpen", "type": "act"},
+			{"id": 174, "name": "ausbetonieren", "type": "act"},
+			{"id": 175, "name": "nachschütten", "type": "act"}
+		]},
+		{"id": 176, "name": "umschlüsseln", "type": "act"}
+	]},
+	{"id": 177, "name": "Zerlegen", "type": "act", "subsets": [
+		{"id": 178, "name": "auftrennen", "type": "act"},
+		{"id": 179, "name": "halbieren", "type": "act"},
+		{"id": 180, "name": "dritteln", "type": "act"},
+		{"id": 181, "name": "schneiden", "type": "act", "subsets": [
+			{"id": 182, "name": "reinschneiden", "type": "act"}
+		]}
+	]},
+	{"id": 183, "name": "(voneinander) trennen", "subsets": [
+		{"id": 184, "name": "isolieren", "type": "act"},
+		{"id": 185, "name": "vereinzeln", "type": "act"},
+		{"id": 186, "name": "heraussieben", "type": "act"},
+		{"id": 187, "name": "herausdestillieren", "type": "act"},
+		{"id": 188, "name": "herausholen", "type": "act"},
+		{"id": 189, "name": "trennen", "type": "act"}
+	]},
+	{"id": 190, "name": "Zerstören", "type": "act"},
+	{"id": 191, "name": "Produktlebensende", "subsets": [
+		{"id": 192, "name": "verschrotten", "type": "act"},
+		{"id": 193, "name": "entsorgen", "type": "act"},
+		{"id": 194, "name": "rezyklieren", "type": "act"},
+		{"id": 195, "name": "upcyclen", "type": "act"}
+	]},
+	{"id": 196, "name": "aktualisieren", "type": "act"},
+	{"id": 197, "name": "downgraden", "type": "act"},
+	{"id": 198, "name": "einspeisen", "type": "act"},
+	{"id": 199, "name": "verfremden", "type": "act"},
+	{"id": 200, "name": "wegfallen", "type": "become"},
+	{"id": 201, "name": "bespielen", "type": "be"},
+	{"id": 202, "name": "verdoppeln", "type": "act"},
+	{"id": 203, "name": "vereinfachen", "type": "act"}
+]},
+{"id": 204, "name": "Ort/Ortswechsel", "subsets": [
+	{"id": 205, "name": "(sich) befinden", "type": "be", "subsets": [
+		{"id": 206, "name": "drinstecken", "type": "be"}
+	]},
+	{"id": 207, "name": "wohnen", "type": "be"},
+	{"id": 208, "name": "Standort", "subsets": [
+		{"id": 209, "name": "erhalten, Platz", "type": "act"},
+		{"id": 210, "name": "stellen, an seinen Platz", "type": "act"},
+		{"id": 211, "name": "lokalisieren", "type": "act"}
+	]},
+	{"id": 212, "name": "kommen, an einen Ort", "subsets": [
+		{"id": 213, "name": "ankommen", "type": "act", "subsets": [
+			{"id": 214, "name": "einziehen", "type": "act"}
+		]},
+		{"id": 215, "name": "sein, vor Ort", "type": "act", "subsets": [
+			{"id": 216, "name": "sein, vollständig", "type": "act"},
+			{"id": 217, "name": "sein, unvollständig", "type": "act"}
+		]},
+		{"id": 218, "name": "verlassen", "type": "act", "subsets": [
+			{"id": 219, "name": "abholen", "type": "act"},
+			{"id": 220, "name": "weggeben", "type": "act"},
+			{"id": 221, "name": "umziehen", "type": "act"}
+		]},
+		{"id": 222, "name": "zurück kommen", "type": "act"}
+	]},
+	{"id": 223, "name": "Transport", "subsets": [
+		{"id": 224, "name": "transportieren", "type": "act"},
+		{"id": 225, "name": "befördern (Transport)", "type": "act", "subsets": [
+			{"id": 226, "name": "tragen", "type": "act", "subsets": [
+				{"id": 227, "name": "mitführen", "type": "be"}
+			]},
+			{"id": 228, "name": "bringen", "subsets": [
+				{"id": 229, "name": "zuführen", "type": "act"}
+			]},
+			{"id": 230, "name": "vorrücken", "type": "act"},
+			{"id": 231, "name": "nachführen", "type": "act"},
+			{"id": 232, "name": "ziehen", "type": "act"}
+		]},
+		{"id": 233, "name": "wegbringen", "type": "act", "subsets": [
+			{"id": 234, "name": "auslagern", "type": "act"},
+			{"id": 235, "name": "verschiffen", "type": "act"},
+			{"id": 236, "name": "schleusen", "type": "act", "subsets": [
+				{"id": 237, "name": "ausschleusen", "type": "act"}
+			]},
+			{"id": 238, "name": "weghängen", "type": "act"},
+			{"id": 239, "name": "wegräumen", "type": "act"}
+		]},
+		{"id": 240, "name": "Weitertransport", "subsets": [
+			{"id": 241, "name": "auftreten, Transfer", "type": "act"},
+			{"id": 242, "name": "sein, transferiert", "type": "be"}
+		]},
+		{"id": 243, "name": "zurücktransportieren", "type": "act"},
+		{"id": 244, "name": "herbringen", "subsets": [
+			{"id": 245, "name": "einschleusen", "type": "act"},
+			{"id": 246, "name": "antransportieren", "type": "act"},
+			{"id": 247, "name": "mitbringen", "type": "act"}
+		]}
+	]},
+	{"id": 248, "name": "verlassen", "type": "act"},
+	{"id": 249, "name": "beitreten", "type": "act"},
+	{"id": 250, "name": "(wo) hängen", "type": "be"},
+	{"id": 251, "name": "liegen", "type": "be"},
+	{"id": 252, "name": "setzen", "type": "act"},
+	{"id": 253, "name": "deponieren", "type": "act", "subsets": [
+		{"id": 254, "name": "ablegen", "type": "act"},
+		{"id": 255, "name": "abstellen", "type": "act", "subsets": [
+			{"id": 256, "name": "parken", "type": "act"},
+			{"id": 257, "name": "hinstellen", "type": "act"}
+		]},
+		{"id": 258, "name": "stapeln", "type": "act"}
+	]},
+	{"id": 259, "name": "grenzen", "type": "be"},
+	{"id": 260, "name": "näherkommen", "type": "act"},
+	{"id": 261, "name": "(etw.) rollen", "type": "act"},
+	{"id": 262, "name": "kleben (intr.)", "type": "act"}
+]},
+{"id": 263, "name": "Berechnung", "subsets": [
+	{"id": 264, "name": "Anzahl", "subsets": [
+		{"id": 265, "name": "ausrechnen, Anzahl", "type": "act"},
+		{"id": 266, "name": "zählen", "type": "act", "subsets": [
+			{"id": 267, "name": "abzählen", "type": "act"},
+			{"id": 268, "name": "auszählen", "type": "act"},
+			{"id": 269, "name": "mitzählen", "type": "be"},
+			{"id": 270, "name": "nachzählen", "type": "act"}
+		]}
+	]},
+	{"id": 271, "name": "durchführen, Berechnung", "type": "act"},
+	{"id": 272, "name": "bilden, Durchschnitt", "type": "act"},
+	{"id": 273, "name": "subtrahieren", "type": "act"},
+	{"id": 274, "name": "addieren", "type": "act"},
+	{"id": 275, "name": "inkrementieren", "type": "act"},
+	{"id": 276, "name": "draufschlagen", "type": "act"},
+	{"id": 277, "name": "dividieren", "type": "act"},
+	{"id": 278, "name": "multiplizieren", "type": "act"},
+	{"id": 279, "name": "einrechnen", "type": "act"},
+	{"id": 280, "name": "runden", "type": "act"},
+	{"id": 281, "name": "umrechnen", "type": "act"},
+	{"id": 282, "name": "wegkürzen", "type": "act"},
+	{"id": 283, "name": "nachrechnen", "type": "act"}
+]},
+{"id": 284, "name": "Entscheidung", "type": "act", "subsets": [
+	{"id": 285, "name": "treffen, Entscheidung", "type": "act", "subsets": [
+		{"id": 286, "name": "zustimmen", "type": "be"},
+		{"id": 287, "name": "geben, Erlaubnis", "type": "act", "subsets": [
+			{"id": 288, "name": "ermächtigen", "type": "act"},
+			{"id": 289, "name": "erteilen, Freigabe", "type": "act"}
+		]},
+		{"id": 290, "name": "versagen, Erlaubnis", "type": "act", "subsets": [
+			{"id": 291, "name": "verwerfen", "type": "act"},
+			{"id": 292, "name": "zurückweisen", "type": "act"}
+		]},
+		{"id": 293, "name": "auswählen", "type": "act", "subsets": [
+			{"id": 294, "name": "treffen, Vorauswahl", "type": "act"},
+			{"id": 295, "name": "filtern", "type": "act"}
+		]},
+		{"id": 296, "name": "treffen, negative Auswahl", "type": "act", "subsets": [
+			{"id": 297, "name": "(von etw.) absehen", "type": "be"}
+		]},
+		{"id": 298, "name": "zuweisen, Fonds", "type": "act"}
+	]},
+	{"id": 299, "name": "empfangen, Entscheidung", "type": "act", "subsets": [
+		{"id": 300, "name": "empfangen, Erlaubnis", "type": "act", "subsets": [
+			{"id": 301, "name": "erhalten, Recht", "type": "act", "subsets": [
+				{"id": 302, "name": "erhalten, Zutrittsberechtigung", "type": "be"}
+			]}
+		]},
+		{"id": 303, "name": "empfangen, Ablehnung", "type": "act"},
+		{"id": 304, "name": "erhalten, Zulassung", "type": "act"},
+		{"id": 305, "name": "erhalten, Absage", "type": "act"}
+	]},
+	{"id": 306, "name": "bekanntgeben, Entscheidung", "subsets": [
+		{"id": 307, "name": "erlassen, Bescheid", "type": "act"},
+		{"id": 308, "name": "bekanntgeben, negative Erlaubnis"},
+		{"id": 309, "name": "bekanntgeben, positive Auswahl", "type": "act"},
+		{"id": 310, "name": "mitteilen, Ablehung", "type": "act"}
+	]},
+	{"id": 311, "name": "anfragen, um Entscheidung", "subsets": [
+		{"id": 312, "name": "anfragen, um Erlaubnis", "type": "act"},
+		{"id": 313, "name": "anfragen, um Auswahl", "type": "act"}
+	]},
+	{"id": 314, "name": "Antragsbearbeitung", "subsets": [
+		{"id": 315, "name": "annehmen, Antrag", "type": "act"},
+		{"id": 316, "name": "einreichen, Antrag", "type": "act"},
+		{"id": 317, "name": "bereitstellen, Antrag", "type": "act"},
+		{"id": 318, "name": "bereitstehen, Antrag", "type": "act"}
+	]},
+	{"id": 319, "name": "Berechtigung", "subsets": [
+		{"id": 320, "name": "sein, berechtigt", "type": "be"},
+		{"id": 321, "name": "(jmdm.) zustehen", "type": "be"},
+		{"id": 322, "name": "ausüben, Vollmacht", "type": "be"},
+		{"id": 323, "name": "machen, zugänglich", "type": "act"}
+	]},
+	{"id": 324, "name": "Abstimmen/Wählen", "type": "act", "subsets": [
+		{"id": 325, "name": "bekommen, Mehrheit", "type": "act"},
+		{"id": 326, "name": "haben, Möglichkeit/Fähigkeit", "type": "act"},
+		{"id": 327, "name": "stoßen, auf Zustimmung", "type": "be"},
+		{"id": 328, "name": "abstimmen, für/gegen etw.", "type": "act"}
+	]},
+	{"id": 329, "name": "verfolgen, Antrag", "type": "act"},
+	{"id": 330, "name": "einlegen, Einspruch", "type": "act"},
+	{"id": 331, "name": "finden, Billigung", "type": "become"},
+	{"id": 332, "name": "beginnen, Abstimmung", "type": "act"},
+	{"id": 333, "name": "lizenzieren", "type": "act", "subsets": [
+		{"id": 334, "name": "neulizensieren", "type": "act"}
+	]},
+	{"id": 335, "name": "verbieten", "type": "act"},
+	{"id": 336, "name": "werden, genehmigt", "type": "become"}
+]},
+{"id": 337, "name": "Aktivität und Inaktivität", "subsets": [
+	{"id": 338, "name": "sein, außer Betrieb", "type": "be", "subsets": [
+		{"id": 339, "name": "liegen, auf Eis", "type": "be"}
+	]},
+	{"id": 340, "name": "gehen, in Betrieb", "type": "act"},
+	{"id": 341, "name": "nehmen, in Betrieb", "type": "act"},
+	{"id": 342, "name": "sein, im Einsatz", "type": "be", "subsets": [
+		{"id": 343, "name": "sein, in Gebrauch", "type": "be"}
+	]},
+	{"id": 344, "name": "sein, in Bearbeitung/Überarbeitung", "type": "be"},
+	{"id": 345, "name": "werden, eingesetzt", "type": "act"},
+	{"id": 346, "name": "haben, im Einsatz", "type": "act", "subsets": [
+		{"id": 347, "name": "verbauen", "type": "act"}
+	]},
+	{"id": 348, "name": "halten, am Laufen", "type": "be"},
+	{"id": 349, "name": "geben, in Arbeit", "type": "act"},
+	{"id": 350, "name": "aktivieren", "type": "act"},
+	{"id": 351, "name": "deaktivieren", "type": "act", "subsets": [
+		{"id": 352, "name": "stellen, ruhend", "type": "act"}
+	]},
+	{"id": 353, "name": "werden, inaktiv", "type": "become"},
+	{"id": 354, "name": "ergreifen, Initiative", "type": "act"}
+]},
+{"id": 355, "name": "Organisationshierarchie", "subsets": [
+	{"id": 356, "name": "stehen, unter jmds. Leitung", "type": "be"},
+	{"id": 357, "name": "proklamieren", "type": "act"},
+	{"id": 358, "name": "zurücktreten", "type": "act"},
+	{"id": 359, "name": "abberufen, von einem Posten", "type": "act"},
+	{"id": 360, "name": "sein, Vertreter", "type": "be"},
+	{"id": 361, "name": "sein, Mandatsträger", "type": "be"},
+	{"id": 362, "name": "führen, Vorsitz", "type": "be"},
+	{"id": 363, "name": "haben, Funktion", "type": "be"},
+	{"id": 364, "name": "übergeben, ein Amt", "type": "act"},
+	{"id": 365, "name": "haben, Rang", "type": "be"},
+	{"id": 366, "name": "nachbesetzen", "type": "act"},
+	{"id": 367, "name": "(etw.) versetzen", "type": "act", "subsets": [
+		{"id": 368, "name": "(jmdn. in einer Hierarchie) befördern", "type": "act"},
+		{"id": 369, "name": "herunterstufen", "type": "act"}
+	]},
+	{"id": 370, "name": "(jmdn.) führen", "type": "act"}
+]},
+{"id": 371, "name": "Termin", "subsets": [
+	{"id": 372, "name": "einhalten, Termin", "type": "act"},
+	{"id": 373, "name": "versäumen, Termin", "type": "act"},
+	{"id": 374, "name": "eintreten, Termin", "type": "act"},
+	{"id": 375, "name": "absagen, Termin", "type": "act"},
+	{"id": 376, "name": "setzen, Termin/Frist", "type": "act"},
+	{"id": 377, "name": "verschieben, Termin/Frist", "type": "act", "subsets": [
+		{"id": 378, "name": "prolongieren", "type": "act"}
+	]},
+	{"id": 379, "name": "machen, neuen Termin", "type": "act"},
+	{"id": 380, "name": "sein, abgesagt", "type": "be"},
+	{"id": 381, "name": "werden, abgesagt", "type": "become"},
+	{"id": 382, "name": "gewähren, Aufschub", "type": "act"},
+	{"id": 383, "name": "Verspätung", "subsets": [
+		{"id": 384, "name": "sein, verspätet", "type": "be"},
+		{"id": 385, "name": "(sich) verspäten", "type": "act"},
+		{"id": 386, "name": "Verzug", "subsets": [
+			{"id": 387, "name": "sein, im Verzug", "type": "be"},
+			{"id": 388, "name": "setzen, in Verzug", "type": "act"}
+		]},
+		{"id": 389, "name": "eintreten, Verspätung", "type": "become"},
+		{"id": 390, "name": "vorliegen, Verspätung", "type": "be"}
+	]},
+	{"id": 391, "name": "werden, fällig", "type": "become"},
+	{"id": 392, "name": "sein, pünktlich", "type": "be"}
+]},
+{"id": 393, "name": "Beruf/Arbeitsverhältnis", "subsets": [
+	{"id": 394, "name": "(jmdn.) entlassen", "type": "act"},
+	{"id": 395, "name": "kündigen (aktiv)", "type": "act"},
+	{"id": 396, "name": "ergreifen, Beruf", "type": "act"},
+	{"id": 397, "name": "nachgehen, einem Beruf", "type": "be", "subsets": [
+		{"id": 398, "name": "betreiben, ein Gewerbe", "type": "be", "subsets": [
+			{"id": 399, "name": "betreiben, ein Handwerk", "type": "be"},
+			{"id": 400, "name": "treiben, Handel", "type": "act"}
+		]}
+	]},
+	{"id": 401, "name": "eingehen, Arbeitsverhältnis", "type": "act", "subsets": [
+		{"id": 402, "name": "(jmdn.) engagieren", "type": "act", "subsets": [
+			{"id": 403, "name": "(jmdn.) abwerben", "type": "act"}
+		]}
+	]},
+	{"id": 404, "name": "ausschreiben, Stelle", "type": "act"},
+	{"id": 405, "name": "(jmdn.) pensionieren", "type": "act"},
+	{"id": 406, "name": "treten, in den Ruhestand", "type": "act"},
+	{"id": 407, "name": "streiken", "type": "act"},
+	{"id": 408, "name": "(sich) einarbeiten", "type": "act"},
+	{"id": 409, "name": "(jmdn.) einarbeiten", "type": "act", "subsets": [
+		{"id": 410, "name": "(jmdn.) einspielen", "type": "act"}
+	]}
+]},
+{"id": 411, "name": "Chance/Möglichkeit/Gelegenheit", "subsets": [
+	{"id": 412, "name": "haben, Gelegenheit", "type": "be"},
+	{"id": 413, "name": "existieren, Gelegenheit", "type": "be"},
+	{"id": 414, "name": "bieten, Möglichkeit", "type": "act"},
+	{"id": 415, "name": "sein, unmöglich", "type": "be"},
+	{"id": 416, "name": "geben, eine Chance", "type": "act"},
+	{"id": 417, "name": "eine Chance haben", "type": "act"},
+	{"id": 418, "name": "eine Chance bekommen", "type": "become"},
+	{"id": 419, "name": "eine Chance ergreifen", "type": "act"},
+	{"id": 420, "name": "sein, möglich", "type": "be", "subsets": [
+		{"id": 421, "name": "kommen, infrage", "type": "be"}
+	]},
+	{"id": 422, "name": "sein, hoffnungslos", "type": "be"},
+	{"id": 423, "name": "stehen, in Frage", "type": "be"}
+]},
+{"id": 424, "name": "Bedarf/Notwendigkeit", "subsets": [
+	{"id": 425, "name": "existieren, Bedarf", "type": "be"},
+	{"id": 426, "name": "entstehen, Bedarf", "type": "become"},
+	{"id": 427, "name": "haben, Bedarf", "type": "be"},
+	{"id": 428, "name": "werden, benötigt", "type": "be"},
+	{"id": 429, "name": "werden, notwendig", "type": "become"},
+	{"id": 430, "name": "sein, Voraussetzung", "type": "act"},
+	{"id": 431, "name": "haben, Voraussetzung", "type": "act"},
+	{"id": 432, "name": "sein, nicht notwendig", "type": "be"},
+	{"id": 433, "name": "halten, für notwendig", "type": "act"},
+	{"id": 434, "name": "halten, nicht für notwendig", "type": "be"}
+]},
+{"id": 435, "name": "Bewertung", "subsets": [
+	{"id": 436, "name": "bevorzugen", "type": "be"},
+	{"id": 437, "name": "werden, vorgezogen", "type": "be"},
+	{"id": 438, "name": "finden, gut", "type": "be", "subsets": [
+		{"id": 439, "name": "brennen", "type": "be"}
+	]},
+	{"id": 440, "name": "finden, bedenklich", "type": "be"},
+	{"id": 441, "name": "abgeben, Urteil", "type": "act"},
+	{"id": 442, "name": "werden, akzeptiert", "type": "act"},
+	{"id": 443, "name": "werden, bewertet", "type": "become"},
+	{"id": 444, "name": "ermitteln, Wert", "type": "act", "subsets": [
+		{"id": 445, "name": "umbewerten", "type": "act"},
+		{"id": 446, "name": "abschätzen", "type": "act"}
+	]},
+	{"id": 447, "name": "befunden (medizin.)", "type": "act"},
+	{"id": 448, "name": "Scoring", "subsets": [
+		{"id": 449, "name": "scoren", "type": "act"},
+		{"id": 450, "name": "beauftragen, Scoring", "type": "act"},
+		{"id": 451, "name": "erfolgen, Scoring", "type": "act"}
+	]}
+]},
+{"id": 452, "name": "Entwicklungsprozess", "subsets": [
+	{"id": 453, "name": "(etw.) entwerfen", "type": "act", "subsets": [
+		{"id": 454, "name": "designen", "type": "act"},
+		{"id": 455, "name": "skizzieren", "type": "act"},
+		{"id": 456, "name": "layouten", "type": "act"}
+	]},
+	{"id": 457, "name": "forschen", "type": "act"},
+	{"id": 458, "name": "Gestaltung", "subsets": [
+		{"id": 459, "name": "(etw.) formen", "type": "act"},
+		{"id": 460, "name": "bekommen, Form", "type": "act"}
+	]},
+	{"id": 461, "name": "bauen", "type": "act"},
+	{"id": 462, "name": "durchführen, Studie", "type": "act"},
+	{"id": 463, "name": "nachgehen, Frage", "type": "act"},
+	{"id": 464, "name": "experimentieren", "type": "act"},
+	{"id": 465, "name": "nachbereiten", "type": "act"},
+	{"id": 466, "name": "erhalten, Leistung", "type": "act"},
+	{"id": 467, "name": "abnehmen, Leistung", "type": "act"}
+]},
+{"id": 468, "name": "Meinungsverschiedenheit", "subsets": [
+	{"id": 469, "name": "existieren, Meinungsverschiedenheit", "type": "be"},
+	{"id": 470, "name": "entstehen, Meinungsverschiedenheit", "type": "act"},
+	{"id": 471, "name": "Beschuldigen", "subsets": [
+		{"id": 472, "name": "Anklage", "type": "act"},
+		{"id": 473, "name": "unter Anklage stehen", "type": "be"},
+		{"id": 474, "name": "jemanden beschuldigen", "type": "act"},
+		{"id": 475, "name": "Berufung einlegen", "type": "act"}
+	]},
+	{"id": 476, "name": "auflösen", "type": "act"},
+	{"id": 477, "name": "Kritik", "subsets": [
+		{"id": 478, "name": "protestieren", "type": "act"},
+		{"id": 479, "name": "kritisieren", "type": "act"},
+		{"id": 480, "name": "werden, kritisiert", "type": "act"},
+		{"id": 481, "name": "stoßen, auf Kritik", "type": "be"}
+	]},
+	{"id": 482, "name": "Bedenken", "subsets": [
+		{"id": 483, "name": "haben, Bedenken", "type": "act"},
+		{"id": 484, "name": "äußern, Bedenken", "type": "act"}
+	]},
+	{"id": 485, "name": "nachdenken", "type": "act", "subsets": [
+		{"id": 486, "name": "überdenken", "type": "act"}
+	]},
+	{"id": 487, "name": "verneinen", "type": "act"},
+	{"id": 488, "name": "bestreiten", "type": "act"},
+	{"id": 489, "name": "verteidigen", "type": "act"}
+]},
+{"id": 490, "name": "bildliche Darstellung", "subsets": [
+	{"id": 491, "name": "bebildern", "type": "act"},
+	{"id": 492, "name": "ausmalen", "type": "act"},
+	{"id": 493, "name": "anmalen", "type": "act"},
+	{"id": 494, "name": "färben", "type": "act"},
+	{"id": 495, "name": "werden, gefärbt", "type": "become"},
+	{"id": 496, "name": "malen", "type": "act"},
+	{"id": 497, "name": "werden, dargestellt", "type": "act"},
+	{"id": 498, "name": "plotten", "type": "act"},
+	{"id": 499, "name": "visualisieren", "type": "act"},
+	{"id": 500, "name": "bedrucken", "type": "act"}
+]},
+{"id": 501, "name": "Meinung", "subsets": [
+	{"id": 502, "name": "haben, Meinung", "type": "act", "subsets": [
+		{"id": 503, "name": "haben, die gleiche Meinung", "type": "be"},
+		{"id": 504, "name": "haben, eine andere Meinung", "type": "be", "subsets": [
+			{"id": 505, "name": "(sich) widersetzen", "type": "act"},
+			{"id": 506, "name": "(auf etw.) bestehen", "type": "be"}
+		]},
+		{"id": 507, "name": "sein, überzeugt", "type": "be"}
+	]},
+	{"id": 508, "name": "ändern, seine Meinung", "type": "act"},
+	{"id": 509, "name": "durchsetzen", "type": "act"},
+	{"id": 510, "name": "nahelegen", "type": "act", "subsets": [
+		{"id": 511, "name": "überzeugen", "type": "act"}
+	]},
+	{"id": 512, "name": "vertreten, eine Meinung", "type": "act"},
+	{"id": 513, "name": "einholen, eine Meinung", "type": "act"},
+	{"id": 514, "name": "kapitulieren", "type": "be"},
+	{"id": 515, "name": "motivieren", "type": "act"},
+	{"id": 516, "name": "sein, im Recht", "type": "be"}
+]},
+{"id": 517, "name": "Problem", "subsets": [
+	{"id": 518, "name": "entstehen, Problem", "type": "act"},
+	{"id": 519, "name": "existieren, Problem", "type": "act"},
+	{"id": 520, "name": "auftreten, kein Problem", "type": "act"},
+	{"id": 521, "name": "beheben, Problem", "type": "act"},
+	{"id": 522, "name": "Fehler", "subsets": [
+		{"id": 523, "name": "sein, fehlerhaft", "type": "be"},
+		{"id": 524, "name": "vorliegen, Fehler", "type": "act"},
+		{"id": 525, "name": "entstehen, Fehler", "type": "be"}
+	]},
+	{"id": 526, "name": "sein, mangelhaft", "type": "be", "subsets": [
+		{"id": 527, "name": "sein, unzureichend", "type": "be"}
+	]},
+	{"id": 528, "name": "erstellen, Lösung", "type": "act"},
+	{"id": 529, "name": "sein, unproblematisch", "type": "be"},
+	{"id": 530, "name": "geraten, in Mitleidenschaft", "type": "become"}
+]},
+{"id": 531, "name": "Reihenfolge", "subsets": [
+	{"id": 532, "name": "in Führung", "subsets": [
+		{"id": 533, "name": "liegen, in Führung", "type": "act"},
+		{"id": 534, "name": "gehen, in Führung", "type": "act"},
+		{"id": 535, "name": "sein, überlegen", "type": "act"}
+	]},
+	{"id": 536, "name": "(jmdm.) unterliegen", "type": "be"},
+	{"id": 537, "name": "in Rückstand", "subsets": [
+		{"id": 538, "name": "sein, im Rückstand", "type": "be"},
+		{"id": 539, "name": "in Rückstand gehen", "type": "act"}
+	]},
+	{"id": 540, "name": "sein, an der Reihe", "type": "be"},
+	{"id": 541, "name": "drannehmen", "type": "act"},
+	{"id": 542, "name": "kommen, an die Reihe", "type": "act"},
+	{"id": 543, "name": "sortieren", "type": "act", "subsets": [
+		{"id": 544, "name": "ordnen, alphabetisch", "type": "act"}
+	]},
+	{"id": 545, "name": "ordnen", "type": "act"},
+	{"id": 546, "name": "umpositionieren", "type": "act"}
+]},
+{"id": 547, "name": "Verantwortung", "subsets": [
+	{"id": 548, "name": "sein, verantwortlich", "type": "be"},
+	{"id": 549, "name": "machen, verantwortlich", "type": "act", "subsets": [
+		{"id": 550, "name": "abgeben, Zuweisung", "type": "act"}
+	]},
+	{"id": 551, "name": "werden, verantwortlich", "type": "become"},
+	{"id": 552, "name": "fallen, in jmds. Zuständigkeit", "type": "be"},
+	{"id": 553, "name": "wahrnehmen, Verantwortung", "type": "act", "subsets": [
+		{"id": 554, "name": "wahrnehmen, Befugnis", "type": "act"}
+	]},
+	{"id": 555, "name": "ziehen, zur Verantwortung", "type": "act"},
+	{"id": 556, "name": "sein, haftbar", "type": "be", "subsets": [
+		{"id": 557, "name": "sein, regresspflichtig", "type": "be"}
+	]},
+	{"id": 558, "name": "(jmdm.) obliegen", "type": "be"},
+	{"id": 559, "name": "freizeichnen", "type": "act"}
+]},
+{"id": 560, "name": "Zuordnung/Gruppierung", "subsets": [
+	{"id": 561, "name": "fallen, in eine Kategorie", "type": "be"},
+	{"id": 562, "name": "zusammenpassen", "type": "be"},
+	{"id": 563, "name": "zusammengehören", "type": "be"},
+	{"id": 564, "name": "gruppieren", "type": "act", "subsets": [
+		{"id": 565, "name": "abstufen", "type": "act"},
+		{"id": 566, "name": "umstufen", "type": "act"}
+	]},
+	{"id": 567, "name": "eingruppieren", "type": "act"},
+	{"id": 568, "name": "zuordnen", "type": "act"},
+	{"id": 569, "name": "Enthaltensein", "subsets": [
+		{"id": 570, "name": "sein, Anhang", "subsets": [
+			{"id": 571, "name": "anhängen", "type": "be"},
+			{"id": 572, "name": "beiliegen", "type": "be"}
+		]},
+		{"id": 573, "name": "sein, Bestandteil", "type": "be"},
+		{"id": 574, "name": "beinhalten", "type": "be"},
+		{"id": 575, "name": "bestehen, aus etw.", "type": "be"}
+	]},
+	{"id": 576, "name": "abspalten", "type": "act", "subsets": [
+		{"id": 577, "name": "herausoperieren", "type": "act"},
+		{"id": 578, "name": "herausschneiden", "type": "act"},
+		{"id": 579, "name": "heraustrennen", "type": "act"},
+		{"id": 580, "name": "rauslösen", "type": "act"},
+		{"id": 581, "name": "abbekommen", "type": "act"}
+	]},
+	{"id": 582, "name": "(sich) abgrenzen", "type": "act"}
+]},
+{"id": 583, "name": "Aufmerksamkeit/Interesse", "subsets": [
+	{"id": 584, "name": "Interesse", "subsets": [
+		{"id": 585, "name": "vorliegen, Interesse", "type": "act"},
+		{"id": 586, "name": "zeigen, Interesse", "type": "be"},
+		{"id": 587, "name": "(sich) fokussieren", "type": "be"},
+		{"id": 588, "name": "sein, interessant", "type": "be"}
+	]},
+	{"id": 589, "name": "erregen, Aufmerksamkeit", "type": "be", "subsets": [
+		{"id": 590, "name": "stoßen, auf Resonanz", "type": "be"},
+		{"id": 591, "name": "wecken, Interesse", "type": "act"},
+		{"id": 592, "name": "bekanntgeben, öffentlich", "type": "act", "subsets": [
+			{"id": 593, "name": "ankündigen", "type": "be"},
+			{"id": 594, "name": "ausstellen", "type": "be"},
+			{"id": 595, "name": "herausbringen", "type": "act"},
+			{"id": 596, "name": "ansagen", "type": "act"},
+			{"id": 597, "name": "abkündigen", "type": "act"}
+		]},
+		{"id": 598, "name": "werden, berücksichtigt", "type": "be"}
+	]},
+	{"id": 599, "name": "treten, in den Hintergrund", "type": "act"},
+	{"id": 600, "name": "holen, in den Hintergrund", "type": "act"},
+	{"id": 601, "name": "machen, auf etw. aufmerksam", "type": "act", "subsets": [
+		{"id": 602, "name": "warnen/alarmieren", "type": "act"}
+	]},
+	{"id": 603, "name": "schenken, Aufmerksamkeit", "type": "be", "subsets": [
+		{"id": 604, "name": "aufpassen", "type": "be"},
+		{"id": 605, "name": "(sich) zuwenden", "type": "act"},
+		{"id": 606, "name": "(etw.) berücksichtigen", "type": "be", "subsets": [
+			{"id": 607, "name": "heranziehen", "type": "act"},
+			{"id": 608, "name": "zugrundelegen", "type": "act"}
+		]},
+		{"id": 609, "name": "nehmen, Rücksicht", "type": "be"}
+	]},
+	{"id": 610, "name": "schenken, keine Aufmerksamkeit", "type": "be"},
+	{"id": 611, "name": "sein, aufmerksam", "type": "be"}
+]},
+{"id": 612, "name": "Bewegung", "subsets": [
+	{"id": 613, "name": "(sich) bewegen", "type": "act", "subsets": [
+		{"id": 614, "name": "eilen", "type": "be"},
+		{"id": 615, "name": "(eine Strecke) abgehen", "type": "act"},
+		{"id": 616, "name": "hinabsinken", "type": "be"},
+		{"id": 617, "name": "durchqueren", "type": "act"},
+		{"id": 618, "name": "herabstürzen", "type": "be"},
+		{"id": 619, "name": "nachgehen", "type": "act"},
+		{"id": 620, "name": "sinken", "type": "be"},
+		{"id": 621, "name": "vorrücken", "type": "act"},
+		{"id": 622, "name": "weiterziehen", "type": "act"}
+	]},
+	{"id": 623, "name": "(etw.) bewegen", "type": "act", "subsets": [
+		{"id": 624, "name": "zurechtlegen", "type": "act"},
+		{"id": 625, "name": "(wohin) hängen", "type": "act"},
+		{"id": 626, "name": "durchreichen", "type": "act"},
+		{"id": 627, "name": "heben", "type": "act"},
+		{"id": 628, "name": "herumdrehen", "type": "act"},
+		{"id": 629, "name": "werfen", "type": "act"}
+	]},
+	{"id": 630, "name": "starten, Bewegung", "type": "act"},
+	{"id": 631, "name": "stoppen, Bewegung", "type": "act", "subsets": [
+		{"id": 632, "name": "abfangen", "type": "act"}
+	]},
+	{"id": 633, "name": "beschleunigen", "type": "act"},
+	{"id": 634, "name": "werden, schneller", "type": "act"},
+	{"id": 635, "name": "verharren", "type": "act", "subsets": [
+		{"id": 636, "name": "sitzen", "type": "be"},
+		{"id": 637, "name": "stehen", "type": "be"},
+		{"id": 638, "name": "stürzen", "type": "act"}
+	]},
+	{"id": 639, "name": "werden, bewegt", "type": "be"}
+]},
+{"id": 640, "name": "Daten", "subsets": [
+	{"id": 641, "name": "abspeichern", "type": "act"},
+	{"id": 642, "name": "zippen", "type": "act"},
+	{"id": 643, "name": "dekodieren", "type": "act"},
+	{"id": 644, "name": "dekomprimieren", "type": "act"},
+	{"id": 645, "name": "chiffrieren", "type": "act"},
+	{"id": 646, "name": "deserialisieren", "type": "act"},
+	{"id": 647, "name": "serialisieren", "type": "act"},
+	{"id": 648, "name": "clustern", "type": "act"}
+]},
+{"id": 649, "name": "Dokumentieren", "subsets": [
+	{"id": 650, "name": "notieren", "type": "act"},
+	{"id": 651, "name": "führen, Buch", "type": "act"},
+	{"id": 652, "name": "vermerken", "type": "act", "subsets": [
+		{"id": 653, "name": "nachtragen", "type": "be"}
+	]},
+	{"id": 654, "name": "dokumentieren", "type": "act"},
+	{"id": 655, "name": "auflisten", "type": "act"},
+	{"id": 656, "name": "protokollieren", "type": "act", "subsets": [
+		{"id": 657, "name": "protokollieren, elektronisch", "type": "act"}
+	]},
+	{"id": 658, "name": "verfassen, Text", "type": "act", "subsets": [
+		{"id": 659, "name": "diktieren", "type": "act"},
+		{"id": 660, "name": "verschriftlichen", "type": "act"}
+	]},
+	{"id": 661, "name": "ablegen, in einem Verzeichnis", "type": "act"}
+]},
+{"id": 662, "name": "Kontrolle/Einfluss/Abhängigkeit", "subsets": [
+	{"id": 663, "name": "Einfluss", "subsets": [
+		{"id": 664, "name": "haben, Einfluss/Wirkung", "type": "be"},
+		{"id": 665, "name": "ausüben, Einfluss", "type": "act"},
+		{"id": 666, "name": "werden, einflussreich", "type": "become"},
+		{"id": 667, "name": "stehen, unter jmds. Einfluss", "type": "be"}
+	]},
+	{"id": 668, "name": "sein, unter Kontrolle", "type": "be"},
+	{"id": 669, "name": "haben, Kontrolle", "type": "be", "subsets": [
+		{"id": 670, "name": "regulieren", "type": "be"}
+	]},
+	{"id": 671, "name": "sein, unkontrollierbar", "type": "be"},
+	{"id": 672, "name": "verlieren, Kontrolle", "type": "act"},
+	{"id": 673, "name": "bringen, unter Kontrolle", "type": "act"},
+	{"id": 674, "name": "werden, unkontrollierbar", "type": "become"},
+	{"id": 675, "name": "Abhängigkeit", "subsets": [
+		{"id": 676, "name": "sein, abhängig", "type": "be", "subsets": [
+			{"id": 677, "name": "abhängen, vom Zufall", "type": "be"}
+		]},
+		{"id": 678, "name": "werden, abhängig", "type": "become"},
+		{"id": 679, "name": "sein, unabhängig", "type": "be"},
+		{"id": 680, "name": "bringen, in Abhängigkeit", "type": "act"}
+	]}
+]},
+{"id": 681, "name": "entsprechen, den Vorgaben", "subsets": [
+	{"id": 682, "name": "sein, anforderungskonform", "type": "be"},
+	{"id": 683, "name": "sein, angebotskonform", "type": "be"},
+	{"id": 684, "name": "sein, antragskonform", "type": "be"},
+	{"id": 685, "name": "sein, auflagenkonform", "type": "be"},
+	{"id": 686, "name": "sein, qualitätskonform", "type": "be"},
+	{"id": 687, "name": "sein, standardkonform", "type": "be"},
+	{"id": 688, "name": "sein, bestellungskonform", "type": "be"},
+	{"id": 689, "name": "handeln, auftragsgemäß", "type": "act"}
+]},
+{"id": 690, "name": "Andauern", "subsets": [
+	{"id": 691, "name": "Anfang", "subsets": [
+		{"id": 692, "name": "(etw.) beginnen", "type": "act", "subsets": [
+			{"id": 693, "name": "wiederaufnehmen", "type": "act"}
+		]},
+		{"id": 694, "name": "anbahnen", "type": "act"},
+		{"id": 695, "name": "stehen, am Anfang", "type": "be"},
+		{"id": 696, "name": "nehmen, Anfang", "type": "be"}
+	]},
+	{"id": 697, "name": "Ende", "subsets": [
+		{"id": 698, "name": "sein, zu Ende", "type": "be"},
+		{"id": 699, "name": "kommen, zu einem Ende", "type": "become"},
+		{"id": 700, "name": "(etw.) beenden", "type": "act", "subsets": [
+			{"id": 701, "name": "finalisieren", "type": "act"}
+		]}
+	]},
+	{"id": 702, "name": "fortführen", "type": "act", "subsets": [
+		{"id": 703, "name": "fortschreiben", "type": "act"}
+	]},
+	{"id": 704, "name": "(sich) anschließen", "type": "act"},
+	{"id": 705, "name": "ziehen, sich in die Länge", "type": "be"},
+	{"id": 706, "name": "machen, dauerhaft", "type": "act"},
+	{"id": 707, "name": "andauern", "type": "be"}
+]},
+{"id": 708, "name": "Bedeutung, Wichtigkeit", "subsets": [
+	{"id": 709, "name": "werden, bedeutend", "type": "become"},
+	{"id": 710, "name": "sein, bedeutend", "type": "be", "subsets": [
+		{"id": 711, "name": "sein, ausschlaggebend", "type": "be"}
+	]},
+	{"id": 712, "name": "spielen, Rolle", "type": "act"},
+	{"id": 713, "name": "ansehen, als bedeutend", "type": "act"},
+	{"id": 714, "name": "sein, unbedeutend", "type": "be", "subsets": [
+		{"id": 715, "name": "diskriminieren", "type": "be"}
+	]},
+	{"id": 716, "name": "ansehen, als unbedeutend", "type": "act"},
+	{"id": 717, "name": "sein, zentral", "type": "be"}
+]},
+{"id": 718, "name": "Besitz", "subsets": [
+	{"id": 719, "name": "(etw.) besitzen", "type": "be"},
+	{"id": 720, "name": "sein, im Besitz", "type": "be"},
+	{"id": 721, "name": "Besitzerwechsel", "subsets": [
+		{"id": 722, "name": "verkaufen", "type": "act"},
+		{"id": 723, "name": "Geben", "subsets": [
+			{"id": 724, "name": "aushändigen", "type": "act"},
+			{"id": 725, "name": "sein, übergeben", "type": "be"}
+		]},
+		{"id": 726, "name": "übereignen", "type": "act"},
+		{"id": 727, "name": "kaufen", "type": "act"},
+		{"id": 728, "name": "werden, verkauft", "type": "act"},
+		{"id": 729, "name": "ausleihen, sich etw.", "type": "act"},
+		{"id": 730, "name": "(etw.) verleihen", "type": "act"},
+		{"id": 731, "name": "nehmen, in Besitz", "type": "act", "subsets": [
+			{"id": 732, "name": "abgreifen", "type": "act"}
+		]},
+		{"id": 733, "name": "(jmdm.) zulaufen", "type": "act"},
+		{"id": 734, "name": "schenken", "type": "act"},
+		{"id": 735, "name": "spenden", "type": "act"},
+		{"id": 736, "name": "verlosen", "type": "act"},
+		{"id": 737, "name": "geben, in Verwahrung", "type": "act"},
+		{"id": 738, "name": "umtauschen", "type": "act"},
+		{"id": 739, "name": "auswechseln", "type": "act"},
+		{"id": 740, "name": "entgegennehmen", "type": "act", "subsets": [
+			{"id": 741, "name": "zurückerhalten", "type": "act"}
+		]},
+		{"id": 742, "name": "übernehmen", "type": "act", "subsets": [
+			{"id": 743, "name": "beschlagnahmen", "type": "act"}
+		]},
+		{"id": 744, "name": "erfolgen, Übernahme", "type": "act"},
+		{"id": 745, "name": "haben wollen", "type": "be"},
+		{"id": 746, "name": "werden, übergeben", "type": "become"}
+	]},
+	{"id": 747, "name": "verlorengehen", "type": "become"},
+	{"id": 748, "name": "verlieren", "type": "become"},
+	{"id": 749, "name": "zurückbehalten", "type": "act"},
+	{"id": 750, "name": "(mit jmdm. etw.) teilen", "type": "act"}
+]},
+{"id": 751, "name": "Bezug", "subsets": [
+	{"id": 752, "name": "herstellen, Bezug", "type": "act"},
+	{"id": 753, "name": "nehmen, Bezug", "type": "act"},
+	{"id": 754, "name": "stehen, in einer Verbindung", "type": "be"},
+	{"id": 755, "name": "stehen, in Wechselwirkung", "type": "be"},
+	{"id": 756, "name": "auflösen, Bezug", "type": "act"},
+	{"id": 757, "name": "verknüpfen", "type": "act", "subsets": [
+		{"id": 758, "name": "zurechnen", "type": "act"},
+		{"id": 759, "name": "anschließen", "type": "act", "subsets": [
+			{"id": 760, "name": "verdrahten", "type": "act"}
+		]}
+	]},
+	{"id": 761, "name": "werden, verknüpft", "type": "act"}
+]},
+{"id": 762, "name": "Durchführung", "subsets": [
+	{"id": 763, "name": "veranstalten", "type": "act"},
+	{"id": 764, "name": "werden, durchgeführt", "type": "act"},
+	{"id": 765, "name": "durchführen, Verfahren", "type": "act"},
+	{"id": 766, "name": "verfolgen, Plan", "type": "act"},
+	{"id": 767, "name": "aufführen", "type": "act"},
+	{"id": 768, "name": "werden, aufgeführt", "type": "act"},
+	{"id": 769, "name": "vorführen", "type": "act"}
+]},
+{"id": 770, "name": "Erfolg", "subsets": [
+	{"id": 771, "name": "sein, erfolglos", "type": "be"},
+	{"id": 772, "name": "machen, erfolglos", "type": "act"},
+	{"id": 773, "name": "sein, erfolgreich", "type": "be"},
+	{"id": 774, "name": "machen, erfolgreich", "type": "act"},
+	{"id": 775, "name": "werden, erfolgreich", "type": "become"},
+	{"id": 776, "name": "sein, erfolgsversprechend", "type": "be"},
+	{"id": 777, "name": "versprechen, Erfolg", "type": "act"}
+]},
+{"id": 778, "name": "Geldzahlung", "subsets": [
+	{"id": 779, "name": "bezahlen", "type": "act", "subsets": [
+		{"id": 780, "name": "gelangen, zur Auszahlung", "type": "act"},
+		{"id": 781, "name": "bezahlen, in Teilbeträgen", "type": "act"},
+		{"id": 782, "name": "(nachträglich) bezahlen", "type": "act"},
+		{"id": 783, "name": "bezahlen, Anzahlung vorab", "type": "act"},
+		{"id": 784, "name": "bezahlen, Entschädigung", "type": "act"},
+		{"id": 785, "name": "zuzahlen", "type": "act"},
+		{"id": 786, "name": "übernehmen, Kosten", "type": "act"},
+		{"id": 787, "name": "gutschreiben", "type": "act"},
+		{"id": 788, "name": "werden, entlohnt", "type": "act"},
+		{"id": 789, "name": "einzahlen", "type": "act"},
+		{"id": 790, "name": "einlösen", "type": "act"},
+		{"id": 791, "name": "investieren", "type": "act"}
+	]},
+	{"id": 792, "name": "bekommen, Zahlung", "type": "act", "subsets": [
+		{"id": 793, "name": "bekommen, Geld", "type": "act"},
+		{"id": 794, "name": "einziehen, Gebühr", "type": "act"},
+		{"id": 795, "name": "einkassieren", "type": "act"},
+		{"id": 796, "name": "erhalten, Zuweisung", "type": "act"}
+	]},
+	{"id": 797, "name": "einwerben (Finanzen)", "type": "act"},
+	{"id": 798, "name": "abgeben, Gebot", "type": "act", "subsets": [
+		{"id": 799, "name": "überbieten", "type": "act"},
+		{"id": 800, "name": "unterbieten", "type": "act"}
+	]},
+	{"id": 801, "name": "Schulden", "subsets": [
+		{"id": 802, "name": "beanspruchen, Schulden", "type": "act"},
+		{"id": 803, "name": "entstehen, Schulden", "type": "act"},
+		{"id": 804, "name": "haben, Schulden", "type": "be"},
+		{"id": 805, "name": "tilgen, Schulden", "type": "act"},
+		{"id": 806, "name": "umschulden", "type": "act"},
+		{"id": 807, "name": "einklagen", "type": "act"}
+	]},
+	{"id": 808, "name": "Geldverkehr", "subsets": [
+		{"id": 809, "name": "überweisen", "type": "act"},
+		{"id": 810, "name": "abbuchen", "type": "act"},
+		{"id": 811, "name": "sein, bargeldlos", "type": "be"},
+		{"id": 812, "name": "sein, in bar", "type": "be"}
+	]},
+	{"id": 813, "name": "Entschädigung", "subsets": [
+		{"id": 814, "name": "entschädigen", "type": "act"},
+		{"id": 815, "name": "werden, entschädigt", "type": "act"}
+	]}
+]},
+{"id": 816, "name": "Zeit", "subsets": [
+	{"id": 817, "name": "ablaufen (Zeit)", "type": "act"},
+	{"id": 818, "name": "Zeit haben", "type": "act"},
+	{"id": 819, "name": "Zeit gewinnen", "type": "act"},
+	{"id": 820, "name": "Zeit geben", "type": "be"},
+	{"id": 821, "name": "fallen, auf einen Tag", "type": "be"},
+	{"id": 822, "name": "sein, zeitgleich", "type": "be"},
+	{"id": 823, "name": "eintreten, Zeitüberschreitung", "type": "act"}
+]},
+{"id": 824, "name": "Gefahr", "subsets": [
+	{"id": 825, "name": "sein, gefährlich", "type": "be", "subsets": [
+		{"id": 826, "name": "sein, lebensgefährlich", "type": "be"}
+	]},
+	{"id": 827, "name": "vorliegen, Gefahr", "type": "act"},
+	{"id": 828, "name": "sein, gefährdet", "type": "be"},
+	{"id": 829, "name": "geraten, in Gefahr", "type": "act"},
+	{"id": 830, "name": "Gefahr laufen", "type": "be"},
+	{"id": 831, "name": "werden, gefährlich", "type": "become"}
+]},
+{"id": 832, "name": "Gerätefunktion", "subsets": [
+	{"id": 833, "name": "anschalten", "type": "act"},
+	{"id": 834, "name": "ausschalten", "type": "act"},
+	{"id": 835, "name": "wegschalten", "type": "act"},
+	{"id": 836, "name": "durchführen, Shut-down", "type": "act"},
+	{"id": 837, "name": "resetten", "type": "act", "subsets": [
+		{"id": 838, "name": "booten", "type": "act", "subsets": [
+			{"id": 839, "name": "rebooten", "type": "act"}
+		]}
+	]},
+	{"id": 840, "name": "warmlaufen", "type": "be"}
+]},
+{"id": 841, "name": "Lieferung", "subsets": [
+	{"id": 842, "name": "anliefern", "type": "act"},
+	{"id": 843, "name": "beliefern", "type": "act"},
+	{"id": 844, "name": "ausliefern", "type": "act"},
+	{"id": 845, "name": "rücksenden", "type": "act"},
+	{"id": 846, "name": "sein, in Zustellung", "type": "be"},
+	{"id": 847, "name": "werden, zugestellt", "type": "become"}
+]},
+{"id": 848, "name": "Name/Bezeichnung", "subsets": [
+	{"id": 849, "name": "benennen", "type": "act"},
+	{"id": 850, "name": "umbenennen", "type": "act"},
+	{"id": 851, "name": "werden, benannt", "type": "act"},
+	{"id": 852, "name": "identifizieren", "type": "act"},
+	{"id": 853, "name": "tragen, Name", "type": "be"},
+	{"id": 854, "name": "Kennzeichnung", "subsets": [
+		{"id": 855, "name": "draufstempeln", "type": "act"},
+		{"id": 856, "name": "beschildern", "type": "act"},
+		{"id": 857, "name": "beschriften", "type": "act"},
+		{"id": 858, "name": "etikettieren", "type": "act"},
+		{"id": 859, "name": "umetikettieren", "type": "act"},
+		{"id": 860, "name": "sein, gestempelt", "type": "be"}
+	]}
+]},
+{"id": 861, "name": "Unterricht", "subsets": [
+	{"id": 862, "name": "ausbilden, lehren", "type": "act", "subsets": [
+		{"id": 863, "name": "aufziehen", "type": "act"}
+	]},
+	{"id": 864, "name": "studieren", "type": "be"},
+	{"id": 865, "name": "antreten, Studium", "type": "become"},
+	{"id": 866, "name": "erhalten, Unterricht", "type": "be"},
+	{"id": 867, "name": "lernen", "type": "be", "subsets": [
+		{"id": 868, "name": "(sich) fortbilden", "type": "be"}
+	]},
+	{"id": 869, "name": "üben", "type": "act", "subsets": [
+		{"id": 870, "name": "einüben", "type": "act"}
+	]}
+]},
+{"id": 871, "name": "Übereinkunft/Absprache", "subsets": [
+	{"id": 872, "name": "bestehen, Übereinkunft", "type": "be"},
+	{"id": 873, "name": "treffen, Übereinkunft", "type": "act"},
+	{"id": 874, "name": "einhalten, Vereinbarung", "type": "act"},
+	{"id": 875, "name": "haben, Vereinbarung", "type": "be"},
+	{"id": 876, "name": "sein, vereinbart", "type": "be"},
+	{"id": 877, "name": "Allianz/Bündnis", "subsets": [
+		{"id": 878, "name": "eingehen, Bündnis", "type": "act"}
+	]}
+]},
+{"id": 879, "name": "Angebot", "subsets": [
+	{"id": 880, "name": "einholen, Angebot", "type": "act"},
+	{"id": 881, "name": "abgeben, Angebot", "type": "act"},
+	{"id": 882, "name": "erhalten, Angebot", "type": "act"},
+	{"id": 883, "name": "annehmen, Angebot", "type": "act"},
+	{"id": 884, "name": "ausschreiben, Angebot", "type": "act"}
+]},
+{"id": 885, "name": "Beschränkung/Begrenzung", "subsets": [
+	{"id": 886, "name": "limitieren", "type": "act"},
+	{"id": 887, "name": "begrenzen", "type": "act"},
+	{"id": 888, "name": "sein, begrenzt", "type": "be"},
+	{"id": 889, "name": "werden, eingeschränkt", "type": "act"},
+	{"id": 890, "name": "(sich) entfalten", "type": "act"}
+]},
+{"id": 891, "name": "Datum", "subsets": [
+	{"id": 892, "name": "umdatieren", "type": "act"},
+	{"id": 893, "name": "datieren", "type": "act"},
+	{"id": 894, "name": "vordatieren", "type": "act"},
+	{"id": 895, "name": "rückdatieren", "type": "act"},
+	{"id": 896, "name": "zurückdatieren", "type": "act"}
+]},
+{"id": 897, "name": "Fortschritt", "subsets": [
+	{"id": 898, "name": "bedeuten, Fortschritt", "type": "be"},
+	{"id": 899, "name": "bringen, Fortschritt", "type": "act"},
+	{"id": 900, "name": "haben, Fortschritt", "type": "act"},
+	{"id": 901, "name": "verzeichnen, Fortschritt", "type": "act"},
+	{"id": 902, "name": "sein, fortschrittlich", "type": "be"}
+]},
+{"id": 903, "name": "Gegenwert", "subsets": [
+	{"id": 904, "name": "machen, wertvoll", "type": "act"},
+	{"id": 905, "name": "verfallen", "type": "become"},
+	{"id": 906, "name": "machen, wertlos", "type": "act", "subsets": [
+		{"id": 907, "name": "entstempeln", "type": "act"},
+		{"id": 908, "name": "entsiegeln", "type": "act"}
+	]},
+	{"id": 909, "name": "sein, wertvoll", "type": "be"},
+	{"id": 910, "name": "sein, wertlos", "type": "be"}
+]},
+{"id": 911, "name": "Gesundheit", "subsets": [
+	{"id": 912, "name": "machen, gesund", "type": "act"},
+	{"id": 913, "name": "werden, gesund", "type": "act"},
+	{"id": 914, "name": "werden, krank", "type": "act"},
+	{"id": 915, "name": "machen, krank", "type": "act"},
+	{"id": 916, "name": "(jmdn.) operieren", "type": "act"}
+]},
+{"id": 917, "name": "Gültigkeit", "subsets": [
+	{"id": 918, "name": "sein, gültig", "type": "be"},
+	{"id": 919, "name": "sein, ungültig", "type": "be"},
+	{"id": 920, "name": "machen, ungültig", "type": "act"},
+	{"id": 921, "name": "werden, gültig", "type": "become"},
+	{"id": 922, "name": "werden, ungültig", "type": "become"}
+]},
+{"id": 923, "name": "Kosten", "type": "act", "subsets": [
+	{"id": 924, "name": "entstehen, Kosten", "type": "act"},
+	{"id": 925, "name": "erlassen, Kosten", "type": "act"},
+	{"id": 926, "name": "abschreiben, Kosten", "type": "act"},
+	{"id": 927, "name": "umlegen, Kosten", "type": "act"},
+	{"id": 928, "name": "verrechnen, Kosten", "type": "act", "subsets": [
+		{"id": 929, "name": "weiterverrechnen", "type": "act"}
+	]}
+]},
+{"id": 930, "name": "Plan", "subsets": [
+	{"id": 931, "name": "(etw.) vorhaben", "type": "act"},
+	{"id": 932, "name": "planen", "type": "act", "subsets": [
+		{"id": 933, "name": "einplanen", "type": "act"},
+		{"id": 934, "name": "anberaumen", "type": "act"},
+		{"id": 935, "name": "umplanen", "type": "act"}
+	]},
+	{"id": 936, "name": "realisieren (etwas Geplantes)", "type": "act"},
+	{"id": 937, "name": "(etw.) abarbeiten", "type": "act"},
+	{"id": 938, "name": "sein, geplant", "type": "be"}
+]},
+{"id": 939, "name": "Ursache", "subsets": [
+	{"id": 940, "name": "haben, Ursache", "type": "be"},
+	{"id": 941, "name": "benennen, Ursache", "type": "act"},
+	{"id": 942, "name": "sein, Ursache", "type": "be", "subsets": [
+		{"id": 943, "name": "sein, schuld", "type": "be"},
+		{"id": 944, "name": "geben, jmdm. einen Anlass", "type": "be"}
+	]},
+	{"id": 945, "name": "halten, für die Ursache", "type": "act"},
+	{"id": 946, "name": "(etw.) bewirken", "type": "be", "subsets": [
+		{"id": 947, "name": "vorsehen", "type": "act"},
+		{"id": 948, "name": "schüren", "type": "act"}
+	]}
+]},
+{"id": 949, "name": "Verständnis", "subsets": [
+	{"id": 950, "name": "zeigen, Verständnis", "type": "be"},
+	{"id": 951, "name": "entwickeln, Verständnis", "type": "become"},
+	{"id": 952, "name": "missverstehen", "type": "be"},
+	{"id": 953, "name": "stoßen, auf Unverständnis", "type": "act"},
+	{"id": 954, "name": "stoßen, auf Verständnis", "type": "act"}
+]},
+{"id": 955, "name": "Wahrnehmung", "subsets": [
+	{"id": 956, "name": "wahrnehmen", "type": "act", "subsets": [
+		{"id": 957, "name": "spüren", "type": "act"},
+		{"id": 958, "name": "sehen", "type": "be"},
+		{"id": 959, "name": "überschauen", "type": "act"}
+	]},
+	{"id": 960, "name": "ignorieren", "type": "be"},
+	{"id": 961, "name": "(etw.) erkennen", "type": "act"},
+	{"id": 962, "name": "(sich) umsehen", "type": "be"},
+	{"id": 963, "name": "sein, sichtbar", "type": "be"}
+]},
+{"id": 964, "name": "Anfrage", "subsets": [
+	{"id": 965, "name": "einholen, Anfrage", "type": "act"},
+	{"id": 966, "name": "erhalten, Anfrage", "type": "act"},
+	{"id": 967, "name": "stellen, Anfrage", "type": "act"},
+	{"id": 968, "name": "sein, angefragt", "type": "be"}
+]},
+{"id": 969, "name": "Anspruch (Erwartung)", "subsets": [
+	{"id": 970, "name": "haben, Anspruch", "type": "act"},
+	{"id": 971, "name": "nehmen, in Anspruch", "type": "be"},
+	{"id": 972, "name": "bestehen, auf einer Forderung", "type": "be"},
+	{"id": 973, "name": "erfüllen", "type": "act", "subsets": [
+		{"id": 974, "name": "sein, ausreichend", "type": "be"},
+		{"id": 975, "name": "stillen", "type": "act"}
+	]}
+]},
+{"id": 976, "name": "Druckerei", "subsets": [
+	{"id": 977, "name": "gehen, in Druck", "type": "become"},
+	{"id": 978, "name": "sein, im Druck", "type": "be"},
+	{"id": 979, "name": "abdrucken", "type": "act"},
+	{"id": 980, "name": "geben, in Druck", "type": "act"}
+]},
+{"id": 981, "name": "Erinnerung", "subsets": [
+	{"id": 982, "name": "sein, in Erinnerung", "type": "be"},
+	{"id": 983, "name": "rufen, ins Gedächtnis", "type": "act", "subsets": [
+		{"id": 984, "name": "(jmdn.) mahnen", "type": "act"},
+		{"id": 985, "name": "(etw.) anmahnen", "type": "act"}
+	]},
+	{"id": 986, "name": "(sich) erinnern", "type": "be"},
+	{"id": 987, "name": "vergessen", "type": "act"}
+]},
+{"id": 988, "name": "Forderung", "subsets": [
+	{"id": 989, "name": "fordern", "type": "act"},
+	{"id": 990, "name": "vorliegen, Forderung", "type": "act"},
+	{"id": 991, "name": "entstehen, Forderung", "type": "act"},
+	{"id": 992, "name": "erhalten, Forderung", "type": "act"}
+]},
+{"id": 993, "name": "Hindernis", "subsets": [
+	{"id": 994, "name": "behindern", "type": "be", "subsets": [
+		{"id": 995, "name": "erschweren", "type": "be"},
+		{"id": 996, "name": "stören", "type": "act"}
+	]},
+	{"id": 997, "name": "stoßen, auf ein Hindernis", "type": "be"},
+	{"id": 998, "name": "existieren, Hindernis", "type": "be"},
+	{"id": 999, "name": "ausweichen", "type": "be"}
+]},
+{"id": 1000, "name": "Kenntnis", "subsets": [
+	{"id": 1001, "name": "haben, Kenntnis", "type": "be", "subsets": [
+		{"id": 1002, "name": "sein, auf dem Laufenden", "type": "be"}
+	]},
+	{"id": 1003, "name": "(etw.) erfahren", "type": "act"},
+	{"id": 1004, "name": "werden, bekannt", "type": "act"},
+	{"id": 1005, "name": "wissen", "type": "be"}
+]},
+{"id": 1006, "name": "Opposition", "subsets": [
+	{"id": 1007, "name": "entgegenstellen", "type": "act"},
+	{"id": 1008, "name": "(sich) erwehren", "type": "be"},
+	{"id": 1009, "name": "(sich etw.) gegenübersehen", "type": "be"},
+	{"id": 1010, "name": "leisten, Widerstand", "type": "be"}
+]},
+{"id": 1011, "name": "Ordnungswidrigkeit", "subsets": [
+	{"id": 1012, "name": "handeln, ordnungswidrig", "type": "act", "subsets": [
+		{"id": 1013, "name": "plagiieren", "type": "be"},
+		{"id": 1014, "name": "betrügen", "type": "act"},
+		{"id": 1015, "name": "fälschen", "type": "act"},
+		{"id": 1016, "name": "(bei jmdm.) einbrechen", "type": "act"}
+	]},
+	{"id": 1017, "name": "sein, ordnungswidrig", "type": "be"},
+	{"id": 1018, "name": "vorliegen, Ordnungswidrigkeit", "type": "act"},
+	{"id": 1019, "name": "stehen, unter Strafe", "type": "be"}
+]},
+{"id": 1020, "name": "Pause", "subsets": [
+	{"id": 1021, "name": "unterbrechen", "type": "act"},
+	{"id": 1022, "name": "pausieren", "type": "be"},
+	{"id": 1023, "name": "ruhen", "type": "be"},
+	{"id": 1024, "name": "(auf etw.) warten", "type": "be", "subsets": [
+		{"id": 1025, "name": "(sich) stellen, in die Warteschlange", "type": "act"}
+	]}
+]},
+{"id": 1026, "name": "Pflicht", "subsets": [
+	{"id": 1027, "name": "bestehen, Pflicht", "type": "act"},
+	{"id": 1028, "name": "verpflichten", "type": "act"},
+	{"id": 1029, "name": "übernehmen, Pflicht", "type": "act"},
+	{"id": 1030, "name": "sein, verpflichtet", "type": "be"}
+]},
+{"id": 1031, "name": "Prüfung (Frage+Antwort)", "subsets": [
+	{"id": 1032, "name": "durchführen, Prüfung (Frage+Antwort) durchführen", "type": "act"},
+	{"id": 1033, "name": "teilnehmen, an Prüfung", "type": "act"},
+	{"id": 1034, "name": "durchfallen, in Prüfung", "type": "act"},
+	{"id": 1035, "name": "bestehen, Prüfung", "type": "act"}
+]},
+{"id": 1036, "name": "Prüfung/Test", "subsets": [
+	{"id": 1037, "name": "prüfen, auf Eigenschaft", "type": "act", "subsets": [
+		{"id": 1038, "name": "vorprüfen", "type": "act"},
+		{"id": 1039, "name": "durchtesten", "type": "act"},
+		{"id": 1040, "name": "korrekturlesen", "type": "act"}
+	]},
+	{"id": 1041, "name": "werden, geprüft", "type": "be"},
+	{"id": 1042, "name": "einholen, Analyse", "type": "act"},
+	{"id": 1043, "name": "suchen, Ursache", "type": "act"}
+]},
+{"id": 1044, "name": "Reinigung", "subsets": [
+	{"id": 1045, "name": "säubern", "type": "act"},
+	{"id": 1046, "name": "abspülen", "type": "act"},
+	{"id": 1047, "name": "dekontaminieren", "type": "act"},
+	{"id": 1048, "name": "absaugen", "type": "act"}
+]},
+{"id": 1049, "name": "Schaden", "subsets": [
+	{"id": 1050, "name": "anrichten, Schaden", "type": "act"},
+	{"id": 1051, "name": "nehmen, Schaden", "type": "act"},
+	{"id": 1052, "name": "einstufen, Schaden", "type": "act"},
+	{"id": 1053, "name": "(jmdm.) schaden", "type": "be"}
+]},
+{"id": 1054, "name": "Vergleich/Ähnlichkeit/Abweichung", "subsets": [
+	{"id": 1055, "name": "vergleichen", "type": "act"},
+	{"id": 1056, "name": "Ähnlichkeit", "subsets": [
+		{"id": 1057, "name": "ähneln", "type": "be", "subsets": [
+			{"id": 1058, "name": "entsprechen, dem Stand", "type": "be"}
+		]},
+		{"id": 1059, "name": "halten, für ähnlich", "type": "act"}
+	]},
+	{"id": 1060, "name": "Größenverhältnis", "subsets": [
+		{"id": 1061, "name": "übersteigen", "type": "be"},
+		{"id": 1062, "name": "überwiegen", "type": "be"}
+	]},
+	{"id": 1063, "name": "Abweichung", "subsets": [
+		{"id": 1064, "name": "verzeichnen, Abweichung", "type": "act"},
+		{"id": 1065, "name": "werden, unterschiedlich", "type": "become"},
+		{"id": 1066, "name": "sein, unterschiedlich", "type": "be"},
+		{"id": 1067, "name": "divergieren", "type": "be"},
+		{"id": 1068, "name": "treffen, Unterscheidung", "type": "be"}
+	]}
+]},
+{"id": 1069, "name": "Versteigerung", "subsets": [
+	{"id": 1070, "name": "kommen, zur Versteigerung", "type": "act"},
+	{"id": 1071, "name": "versteigern", "type": "act", "subsets": [
+		{"id": 1072, "name": "zwangsversteigern", "type": "act"}
+	]},
+	{"id": 1073, "name": "ersteigern", "type": "act"},
+	{"id": 1074, "name": "erhalten, Zuschlag", "type": "act"}
+]},
+{"id": 1075, "name": "Vorbereitung", "subsets": [
+	{"id": 1076, "name": "vorbereiten", "type": "act"},
+	{"id": 1077, "name": "befinden, in Vorbereitung", "type": "be"},
+	{"id": 1078, "name": "rüsten", "type": "act"},
+	{"id": 1079, "name": "(sich) vorbereiten", "type": "act"}
+]},
+{"id": 1080, "name": "Vorhandensein", "subsets": [
+	{"id": 1081, "name": "bereitstellen", "type": "act"},
+	{"id": 1082, "name": "stehen, bereit", "type": "be"},
+	{"id": 1083, "name": "sein, vorhanden", "type": "be", "subsets": [
+		{"id": 1084, "name": "bestehenbleiben", "type": "be"},
+		{"id": 1085, "name": "verbleiben", "type": "be"},
+		{"id": 1086, "name": "übrigbleiben", "type": "be"}
+	]},
+	{"id": 1087, "name": "haben, zur Verfügung", "type": "be"}
+]},
+{"id": 1088, "name": "Wirksamkeit", "subsets": [
+	{"id": 1089, "name": "sein, wirksam", "type": "be"},
+	{"id": 1090, "name": "sein, unwirksam", "type": "be"},
+	{"id": 1091, "name": "werden, wirksam", "type": "become"},
+	{"id": 1092, "name": "machen, wirkungsvoll", "type": "act"}
+]},
+{"id": 1093, "name": "Zusicherung", "subsets": [
+	{"id": 1094, "name": "(etw.) versprechen", "type": "act", "subsets": [
+		{"id": 1095, "name": "leisten, Eid", "type": "act"},
+		{"id": 1096, "name": "schwören", "type": "act"}
+	]},
+	{"id": 1097, "name": "erhalten, Versprechen", "type": "act"},
+	{"id": 1098, "name": "halten, Versprechen", "type": "be"},
+	{"id": 1099, "name": "werden, garantiert", "type": "become"}
+]},
+{"id": 1100, "name": "Zwang", "subsets": [
+	{"id": 1101, "name": "unter Druck stehen", "type": "be", "subsets": [
+		{"id": 1102, "name": "stehen, unter Zeitdruck", "type": "be"}
+	]},
+	{"id": 1103, "name": "geraten, in Not", "type": "become"},
+	{"id": 1104, "name": "geraten, unter Druck", "type": "become"},
+	{"id": 1105, "name": "setzen, unter Druck", "type": "act"}
+]},
+{"id": 1106, "name": "klappen", "subsets": [
+	{"id": 1107, "name": "aufklappen", "type": "act"},
+	{"id": 1108, "name": "ausklappen", "type": "act"},
+	{"id": 1109, "name": "zuklappen (intr.)", "type": "act"},
+	{"id": 1110, "name": "(etw.) zusammenklappen", "type": "act"}
+]},
+{"id": 1111, "name": "schalten", "type": "act", "subsets": [
+	{"id": 1112, "name": "zusammenschalten", "type": "act"},
+	{"id": 1113, "name": "(etw.) umschalten", "type": "act"},
+	{"id": 1114, "name": "(sich) anschalten", "type": "become"},
+	{"id": 1115, "name": "umschalten (intr.)", "type": "act"}
+]},
+{"id": 1116, "name": "Anweisung", "subsets": [
+	{"id": 1117, "name": "erhalten, Anweisung", "type": "act"},
+	{"id": 1118, "name": "befolgen, Anweisung", "type": "act"},
+	{"id": 1119, "name": "erteilen, Anweisung", "type": "act"}
+]},
+{"id": 1120, "name": "Bescheinigung", "subsets": [
+	{"id": 1121, "name": "werden, bescheinigt", "type": "act"},
+	{"id": 1122, "name": "bescheinigen", "type": "act"},
+	{"id": 1123, "name": "bezeugen", "type": "act"}
+]},
+{"id": 1124, "name": "Besuch", "subsets": [
+	{"id": 1125, "name": "besuchen", "type": "act"},
+	{"id": 1126, "name": "bekommen, Besuch", "type": "act"},
+	{"id": 1127, "name": "antreffen", "type": "act"}
+]},
+{"id": 1128, "name": "Bezeichnung", "subsets": [
+	{"id": 1129, "name": "erhalten, Bezeichnung", "type": "act"},
+	{"id": 1130, "name": "geben, Bezeichnung", "type": "act"},
+	{"id": 1131, "name": "führen, Titel", "type": "be"}
+]},
+{"id": 1132, "name": "Eindruck", "subsets": [
+	{"id": 1133, "name": "gewinnen, Eindruck", "type": "act"},
+	{"id": 1134, "name": "haben, Eindruck", "type": "act"},
+	{"id": 1135, "name": "vermitteln, Eindruck", "type": "act"}
+]},
+{"id": 1136, "name": "Einladung", "subsets": [
+	{"id": 1137, "name": "einladen", "type": "act", "subsets": [
+		{"id": 1138, "name": "aussprechen, Einladung", "type": "act"}
+	]},
+	{"id": 1139, "name": "vorladen", "subsets": [
+		{"id": 1140, "name": "vorladen", "type": "act"},
+		{"id": 1141, "name": "sein, vorgeladen", "type": "be"},
+		{"id": 1142, "name": "vorliegen, Vorladung", "type": "be"}
+	]},
+	{"id": 1143, "name": "ausladen", "subsets": [
+		{"id": 1144, "name": "ausladen", "type": "act"}
+	]}
+]},
+{"id": 1145, "name": "Fähigkeit", "subsets": [
+	{"id": 1146, "name": "sein, im Stande", "type": "act"},
+	{"id": 1147, "name": "sein, außer Stande", "type": "be"},
+	{"id": 1148, "name": "versetzen, in die Lage", "type": "act"}
+]},
+{"id": 1149, "name": "Gefühl", "subsets": [
+	{"id": 1150, "name": "Angst", "subsets": [
+		{"id": 1151, "name": "(sich) ängstigen", "type": "be"}
+	]},
+	{"id": 1152, "name": "Sicherheit", "subsets": [
+		{"id": 1153, "name": "verunsichern", "type": "be"}
+	]},
+	{"id": 1154, "name": "Aufregung", "subsets": [
+		{"id": 1155, "name": "machen, ruhig", "type": "act"}
+	]}
+]},
+{"id": 1156, "name": "Geräusch", "subsets": [
+	{"id": 1157, "name": "läuten", "type": "act"},
+	{"id": 1158, "name": "schallen", "type": "be"},
+	{"id": 1159, "name": "piepsen", "type": "be"}
+]},
+{"id": 1160, "name": "Geschäftslebenszyklus", "subsets": [
+	{"id": 1161, "name": "gründen, Geschäft"},
+	{"id": 1162, "name": "enden, Geschäft", "type": "act"},
+	{"id": 1163, "name": "auflösen, Geschäft", "type": "act"}
+]},
+{"id": 1164, "name": "Gleichgewicht", "subsets": [
+	{"id": 1165, "name": "halten, im Gleichgewicht", "type": "be"},
+	{"id": 1166, "name": "destabilisieren", "type": "act"},
+	{"id": 1167, "name": "werden, destabilisiert", "type": "act"}
+]},
+{"id": 1168, "name": "Sperre", "subsets": [
+	{"id": 1169, "name": "sperren", "type": "act"},
+	{"id": 1170, "name": "versperren", "type": "act", "subsets": [
+		{"id": 1171, "name": "abriegeln", "type": "act"}
+	]},
+	{"id": 1172, "name": "aufheben, Sperre", "type": "act"}
+]},
+{"id": 1173, "name": "Urlaub", "subsets": [
+	{"id": 1174, "name": "machen, Urlaub", "type": "act"},
+	{"id": 1175, "name": "erteilen, Urlaub", "type": "act"},
+	{"id": 1176, "name": "bekommen, Urlaub", "type": "act"}
+]},
+{"id": 1177, "name": "Verlust", "subsets": [
+	{"id": 1178, "name": "verzeichnen, Verlust", "type": "act"},
+	{"id": 1179, "name": "entstehen, Verlust", "type": "act"},
+	{"id": 1180, "name": "sein, defizitär", "type": "be"}
+]},
+{"id": 1181, "name": "Vermutung", "subsets": [
+	{"id": 1182, "name": "anstellen, Vermutung", "type": "act"},
+	{"id": 1183, "name": "Verdacht", "subsets": [
+		{"id": 1184, "name": "verdächtigen", "type": "act"},
+		{"id": 1185, "name": "stehen, unter Verdacht", "type": "be"},
+		{"id": 1186, "name": "melden, Verdacht", "type": "act"},
+		{"id": 1187, "name": "werden, verdächtig", "type": "become"}
+	]},
+	{"id": 1188, "name": "wetten", "type": "act"}
+]},
+{"id": 1189, "name": "Verpackung", "subsets": [
+	{"id": 1190, "name": "entpacken", "type": "act"},
+	{"id": 1191, "name": "verpacken", "type": "act", "subsets": [
+		{"id": 1192, "name": "aufwickeln", "type": "act"},
+		{"id": 1193, "name": "einrollen", "type": "act"}
+	]},
+	{"id": 1194, "name": "umpacken", "type": "act"}
+]},
+{"id": 1195, "name": "Vorteil", "subsets": [
+	{"id": 1196, "name": "bevorteilen", "type": "be"},
+	{"id": 1197, "name": "haben, Vorteil", "type": "be"},
+	{"id": 1198, "name": "ziehen, Vorteil", "type": "act"}
+]},
+{"id": 1199, "name": "Wunsch", "type": "act", "subsets": [
+	{"id": 1200, "name": "(sich etw.) wünschen", "type": "act", "subsets": [
+		{"id": 1201, "name": "äußern, Wunsch", "type": "act"}
+	]},
+	{"id": 1202, "name": "werden, gewünscht", "type": "act"},
+	{"id": 1203, "name": "werden, wahr (Wunsch)", "type": "act"}
+]},
+{"id": 1204, "name": "Zufriedenheit", "subsets": [
+	{"id": 1205, "name": "zufriedengeben, sich mit etwas", "type": "be"},
+	{"id": 1206, "name": "zufriedenstellen", "type": "act"},
+	{"id": 1207, "name": "(sich) beschweren", "type": "act"}
+]},
+{"id": 1208, "name": "(sich) beteiligen", "type": "be", "subsets": [
+	{"id": 1209, "name": "mitmachen", "type": "be", "subsets": [
+		{"id": 1210, "name": "mitgestalten", "type": "be"}
+	]},
+	{"id": 1211, "name": "beitragen", "type": "act", "subsets": [
+		{"id": 1212, "name": "beitragen, Eigenschaft/Wissen", "type": "act"}
+	]},
+	{"id": 1213, "name": "teilnehmen", "type": "be"}
+]},
+{"id": 1214, "name": "(etw.) einstellen", "type": "act", "subsets": [
+	{"id": 1215, "name": "nachregeln", "type": "act"},
+	{"id": 1216, "name": "initialisieren", "type": "act", "subsets": [
+		{"id": 1217, "name": "formatieren", "type": "act"}
+	]},
+	{"id": 1218, "name": "rekonfigurieren", "type": "act"}
+]},
+{"id": 1219, "name": "(etw.) messen", "subsets": [
+	{"id": 1220, "name": "messen", "type": "act"},
+	{"id": 1221, "name": "aufmessen", "type": "act"},
+	{"id": 1222, "name": "ausmessen", "type": "act"}
+]},
+{"id": 1223, "name": "Angemessenheit", "subsets": [
+	{"id": 1224, "name": "sein, angemessen", "type": "be"},
+	{"id": 1225, "name": "sein, unangemessen", "type": "be"}
+]},
+{"id": 1226, "name": "Anspruch (geschäftl.)", "subsets": [
+	{"id": 1227, "name": "bestehen, Anspruch", "type": "be"},
+	{"id": 1228, "name": "stellen, Anspruch", "type": "act"}
+]},
+{"id": 1229, "name": "Arbeit", "subsets": [
+	{"id": 1230, "name": "aufnehmen, Arbeit", "type": "act"},
+	{"id": 1231, "name": "arbeiten", "type": "act", "subsets": [
+		{"id": 1232, "name": "zusammenarbeiten", "type": "be"},
+		{"id": 1233, "name": "durcharbeiten", "type": "act"}
+	]}
+]},
+{"id": 1234, "name": "Aufbewahrung", "subsets": [
+	{"id": 1235, "name": "aufbewahren", "type": "act", "subsets": [
+		{"id": 1236, "name": "zwischenlagern", "type": "act"}
+	]},
+	{"id": 1237, "name": "bevorraten", "type": "act", "subsets": [
+		{"id": 1238, "name": "einlagern", "type": "act"}
+	]}
+]},
+{"id": 1239, "name": "Auswertung", "subsets": [
+	{"id": 1240, "name": "auswerten", "type": "act"},
+	{"id": 1241, "name": "aufstellen, Statistik", "type": "act"}
+]},
+{"id": 1242, "name": "Belastung", "subsets": [
+	{"id": 1243, "name": "belasten", "type": "act", "subsets": [
+		{"id": 1244, "name": "verhängen", "type": "act"}
+	]},
+	{"id": 1245, "name": "entlasten", "type": "act"}
+]},
+{"id": 1246, "name": "Bereitschaft", "subsets": [
+	{"id": 1247, "name": "bekunden, Bereitschaft", "type": "act"},
+	{"id": 1248, "name": "herstellen, Bereitschaft", "type": "act"}
+]},
+{"id": 1249, "name": "Dank", "subsets": [
+	{"id": 1250, "name": "bedanken", "type": "act"},
+	{"id": 1251, "name": "erhalten, Dank", "type": "act"}
+]},
+{"id": 1252, "name": "Entstehung", "subsets": [
+	{"id": 1253, "name": "werden, erzeugt", "type": "act"},
+	{"id": 1254, "name": "entstehen", "type": "act"}
+]},
+{"id": 1255, "name": "Ereignis", "subsets": [
+	{"id": 1256, "name": "geschehen", "type": "act", "subsets": [
+		{"id": 1257, "name": "auftreten", "type": "be"}
+	]},
+	{"id": 1258, "name": "kommen, zustande", "type": "become"}
+]},
+{"id": 1259, "name": "Erfahrung", "subsets": [
+	{"id": 1260, "name": "sammeln, Erfahrung", "type": "act"},
+	{"id": 1261, "name": "haben, Erfahrung", "type": "be"}
+]},
+{"id": 1262, "name": "Ersatz", "subsets": [
+	{"id": 1263, "name": "ersetzen", "type": "act"},
+	{"id": 1264, "name": "werden, ersetzt", "type": "act"}
+]},
+{"id": 1265, "name": "Herausforderung", "subsets": [
+	{"id": 1266, "name": "herausfordern", "type": "be"},
+	{"id": 1267, "name": "werden, gefordert", "type": "be"}
+]},
+{"id": 1268, "name": "Idee", "subsets": [
+	{"id": 1269, "name": "tragen, sich mit einem Gedanken", "type": "be"},
+	{"id": 1270, "name": "(jmdm.) vorschweben", "type": "be"}
+]},
+{"id": 1271, "name": "Kreisbewegung", "subsets": [
+	{"id": 1272, "name": "rotieren (intr.)", "type": "be"},
+	{"id": 1273, "name": "versetzen, in Rotation", "type": "act"}
+]},
+{"id": 1274, "name": "Licht", "subsets": [
+	{"id": 1275, "name": "blinken", "type": "be"},
+	{"id": 1276, "name": "aufleuchten", "type": "act"}
+]},
+{"id": 1277, "name": "Lob", "subsets": [
+	{"id": 1278, "name": "loben", "type": "act"},
+	{"id": 1279, "name": "erhalten, Lob", "type": "act"}
+]},
+{"id": 1280, "name": "Markieren", "subsets": [
+	{"id": 1281, "name": "markieren", "type": "act", "subsets": [
+		{"id": 1282, "name": "markieren, mit Maus", "type": "act", "subsets": [
+			{"id": 1283, "name": "doppelklicken", "type": "act"}
+		]},
+		{"id": 1284, "name": "markieren, per Haken", "type": "act"}
+	]},
+	{"id": 1285, "name": "annotieren", "type": "act"}
+]},
+{"id": 1286, "name": "Markteinführung", "subsets": [
+	{"id": 1287, "name": "bringen, auf den Markt", "type": "act"},
+	{"id": 1288, "name": "nehmen, vom Markt", "type": "act"}
+]},
+{"id": 1289, "name": "Patent", "subsets": [
+	{"id": 1290, "name": "erteilen, Patent", "type": "act"},
+	{"id": 1291, "name": "lassen, patentieren", "type": "act"}
+]},
+{"id": 1292, "name": "Preis", "subsets": [
+	{"id": 1293, "name": "haben, Preis", "type": "be"},
+	{"id": 1294, "name": "senken, Preis", "type": "act"}
+]},
+{"id": 1295, "name": "Priorität", "subsets": [
+	{"id": 1296, "name": "sein, prioritär", "type": "be"},
+	{"id": 1297, "name": "geben, Priorität", "type": "act"}
+]},
+{"id": 1298, "name": "Produktionsstart", "subsets": [
+	{"id": 1299, "name": "nehmen, produktiv", "type": "act"},
+	{"id": 1300, "name": "gehen, produktiv", "type": "act"}
+]},
+{"id": 1301, "name": "Quittung/Rechnung", "subsets": [
+	{"id": 1302, "name": "Quittung erhalten", "type": "act"},
+	{"id": 1303, "name": "Quittung ausstellen", "type": "act"}
+]},
+{"id": 1304, "name": "Reaktion", "subsets": [
+	{"id": 1305, "name": "erfolgen, Reaktion", "type": "act", "subsets": [
+		{"id": 1306, "name": "intervenieren", "type": "act"}
+	]},
+	{"id": 1307, "name": "erfolgen, keine Reaktion", "type": "act"}
+]},
+{"id": 1308, "name": "Reklamation", "subsets": [
+	{"id": 1309, "name": "reklamieren", "type": "act"},
+	{"id": 1310, "name": "erklären, Rücknahme", "type": "act"}
+]},
+{"id": 1311, "name": "Rückgabe", "subsets": [
+	{"id": 1312, "name": "zurückgeben", "type": "act"},
+	{"id": 1313, "name": "zurücknehmen", "type": "act"}
+]},
+{"id": 1314, "name": "Strafe", "subsets": [
+	{"id": 1315, "name": "bestrafen", "type": "act", "subsets": [
+		{"id": 1316, "name": "erlassen, Bußgeld", "type": "act"}
+	]},
+	{"id": 1317, "name": "setzen, außer Vollzug", "type": "act"}
+]},
+{"id": 1318, "name": "Tagesordnung", "subsets": [
+	{"id": 1319, "name": "setzen, auf die Tagesordnung", "type": "act"},
+	{"id": 1320, "name": "nehmen, von der Tagesordnung", "type": "act"}
+]},
+{"id": 1321, "name": "Tendenz", "subsets": [
+	{"id": 1322, "name": "Tendenz existiert", "type": "be"},
+	{"id": 1323, "name": "tendieren", "type": "be"}
+]},
+{"id": 1324, "name": "Treffen", "subsets": [
+	{"id": 1325, "name": "abhalten, Meeting", "type": "act"},
+	{"id": 1326, "name": "(sich) versammeln", "type": "act"}
+]},
+{"id": 1327, "name": "Umladen", "subsets": [
+	{"id": 1328, "name": "verladen", "type": "act"},
+	{"id": 1329, "name": "entladen", "type": "act"}
+]},
+{"id": 1330, "name": "Unterschrift", "subsets": [
+	{"id": 1331, "name": "unterschreiben", "type": "act", "subsets": [
+		{"id": 1332, "name": "zeichnen, richtig", "type": "act"}
+	]},
+	{"id": 1333, "name": "lassen, unterschreiben", "type": "act"}
+]},
+{"id": 1334, "name": "Unterstützung/Hilfe", "subsets": [
+	{"id": 1335, "name": "helfen", "type": "act", "subsets": [
+		{"id": 1336, "name": "beschützen", "type": "be"},
+		{"id": 1337, "name": "dienen", "type": "be"}
+	]},
+	{"id": 1338, "name": "erhalten, Hilfe", "type": "act"}
+]},
+{"id": 1339, "name": "Verletzung", "subsets": [
+	{"id": 1340, "name": "(mit dem Fuß) umknicken", "type": "act"},
+	{"id": 1341, "name": "wegknicken", "type": "act"}
+]},
+{"id": 1342, "name": "Versandbereitschaft", "subsets": [
+	{"id": 1343, "name": "werden, versandbereit", "type": "act"},
+	{"id": 1344, "name": "sein, versandbereit", "type": "be"}
+]},
+{"id": 1345, "name": "Verschließen", "type": "act", "subsets": [
+	{"id": 1346, "name": "zuschnüren", "type": "act"},
+	{"id": 1347, "name": "zuschweißen", "type": "act"}
+]},
+{"id": 1348, "name": "Versicherung", "subsets": [
+	{"id": 1349, "name": "(sich) versichern", "type": "act", "subsets": [
+		{"id": 1350, "name": "krankenversichern", "type": "act"},
+		{"id": 1351, "name": "haftpflichtversichern", "type": "act"}
+	]},
+	{"id": 1352, "name": "(etw.) versichern", "type": "act"}
+]},
+{"id": 1353, "name": "Vertrag", "subsets": [
+	{"id": 1354, "name": "bestehen, Vertrag", "type": "be"},
+	{"id": 1355, "name": "schließen, Vertrag", "type": "act"}
+]},
+{"id": 1356, "name": "Vertrauen", "subsets": [
+	{"id": 1357, "name": "(etw.) vertrauen", "type": "act"},
+	{"id": 1358, "name": "(etw.) misstrauen", "type": "act"}
+]},
+{"id": 1359, "name": "Verzeihung", "subsets": [
+	{"id": 1360, "name": "bitten, um Verzeihung", "type": "act"},
+	{"id": 1361, "name": "erteilen, Verzeihung", "type": "act"}
+]},
+{"id": 1362, "name": "Verzicht", "subsets": [
+	{"id": 1363, "name": "verzichten", "type": "be"},
+	{"id": 1364, "name": "bedeuten, Verzicht", "type": "be"}
+]},
+{"id": 1365, "name": "Vorbild", "subsets": [
+	{"id": 1366, "name": "sein, Vorbild", "type": "be"},
+	{"id": 1367, "name": "nehmen, zum Vorbild", "type": "be"}
+]},
+{"id": 1368, "name": "Vorschlag", "subsets": [
+	{"id": 1369, "name": "avisieren", "type": "act"},
+	{"id": 1370, "name": "werden, avisiert", "type": "act"}
+]},
+{"id": 1371, "name": "Werbung", "subsets": [
+	{"id": 1372, "name": "machen, Werbung", "type": "act"},
+	{"id": 1373, "name": "aufgeben, Anzeige", "type": "be"}
+]},
+{"id": 1374, "name": "Widerspruch, sachlicher", "subsets": [
+	{"id": 1375, "name": "stehen, im Gegensatz", "type": "be"},
+	{"id": 1376, "name": "werden, widersprüchlich", "type": "become"}
+]},
+{"id": 1377, "name": "Wiedervorlage", "type": "act", "subsets": [
+	{"id": 1378, "name": "durchführen, Wiedervorlage", "type": "act"},
+	{"id": 1379, "name": "stellen, auf Wiedervorlage", "type": "act"}
+]},
+{"id": 1380, "name": "Zinsen", "subsets": [
+	{"id": 1381, "name": "verzinsen", "type": "act"},
+	{"id": 1382, "name": "werden, verzinst", "type": "act"}
+]},
+{"id": 1383, "name": "amtliche Zulassung", "subsets": [
+	{"id": 1384, "name": "zulassen", "type": "act"},
+	{"id": 1385, "name": "zugelassen werden", "type": "act"}
+]},
+{"id": 1386, "name": "bestellen/buchen", "type": "act", "subsets": [
+	{"id": 1387, "name": "Abonnement abschließen", "type": "act"},
+	{"id": 1388, "name": "umbuchen", "type": "act"}
+]},
+{"id": 1389, "name": "ermahnen", "type": "act", "subsets": [
+	{"id": 1390, "name": "Abmahnung", "subsets": [
+		{"id": 1391, "name": "abmahnen", "type": "act"}
+	]},
+	{"id": 1392, "name": "rügen", "type": "act"}
+]},
+{"id": 1393, "name": "ermitteln, Eigenschaften", "subsets": [
+	{"id": 1394, "name": "(etw.) erkunden", "type": "act"},
+	{"id": 1395, "name": "suchen, nach etw.", "subsets": [
+		{"id": 1396, "name": "ermitteln", "type": "act"}
+	]}
+]},
+{"id": 1397, "name": "erscheinen", "type": "act", "subsets": [
+	{"id": 1398, "name": "persönlich erscheinen", "type": "act"},
+	{"id": 1399, "name": "vorstellig werden", "type": "act"}
+]},
+{"id": 1400, "name": "handeln, fehlerhaft", "type": "act", "subsets": [
+	{"id": 1401, "name": "fehlinterpretieren", "type": "be"},
+	{"id": 1402, "name": "(sich) irren", "type": "be"}
+]},
+{"id": 1403, "name": "hinterlegen, Pfand", "subsets": [
+	{"id": 1404, "name": "pfänden", "type": "act"},
+	{"id": 1405, "name": "gepfändet werden", "type": "act"}
+]},
+{"id": 1406, "name": "nachverfolgen", "type": "act", "subsets": [
+	{"id": 1407, "name": "verfolgen/controllen", "type": "act"},
+	{"id": 1408, "name": "zurückverfolgen", "type": "act"}
+]},
+{"id": 1409, "name": "persönl. Beziehung", "subsets": [
+	{"id": 1410, "name": "schaffen, persönl. Beziehung", "type": "act"},
+	{"id": 1411, "name": "pflegen, persönl. Beziehung", "type": "act"}
+]},
+{"id": 1412, "name": "trocknen", "type": "act", "subsets": [
+	{"id": 1413, "name": "durchtrocknen", "type": "become"},
+	{"id": 1414, "name": "eintrocknen", "type": "become"}
+]},
+{"id": 1415, "name": "verbergen", "type": "be", "subsets": [
+	{"id": 1416, "name": "verdecken", "type": "act"},
+	{"id": 1417, "name": "verschleiern", "type": "act"}
+]},
+{"id": 1418, "name": "versuchen", "type": "be", "subsets": [
+	{"id": 1419, "name": "(sich) einlassen, auf etw.", "type": "act"},
+	{"id": 1420, "name": "riskieren", "type": "be"}
+]},
+{"id": 1421, "name": "Anteil", "subsets": [
+	{"id": 1422, "name": "zuteilen", "type": "act"}
+]},
+{"id": 1423, "name": "Bitte", "subsets": [
+	{"id": 1424, "name": "bitten", "type": "act"}
+]},
+{"id": 1425, "name": "Drohung", "subsets": [
+	{"id": 1426, "name": "drohen", "type": "act"}
+]},
+{"id": 1427, "name": "Größe", "subsets": [
+	{"id": 1428, "name": "sein, groß", "type": "be", "subsets": [
+		{"id": 1429, "name": "sein, übergroß", "type": "be"}
+	]}
+]},
+{"id": 1430, "name": "Merkmal", "type": "be", "subsets": [
+	{"id": 1431, "name": "aufweisen, Besonderheit", "type": "be"}
+]},
+{"id": 1432, "name": "akkreditieren", "type": "act", "subsets": [
+	{"id": 1433, "name": "neuakkreditieren", "type": "act"}
+]},
+{"id": 1434, "name": "anmelden", "type": "act", "subsets": [
+	{"id": 1435, "name": "voranmelden", "type": "act"}
+]},
+{"id": 1436, "name": "austeilen", "type": "act", "subsets": [
+	{"id": 1437, "name": "umverteilen", "type": "act"}
+]},
+{"id": 1438, "name": "beschichten", "type": "act", "subsets": [
+	{"id": 1439, "name": "foliieren", "type": "act"}
+]},
+{"id": 1440, "name": "(sich) beschränken", "type": "be", "subsets": [
+	{"id": 1441, "name": "erleiden", "type": "be"}
+]},
+{"id": 1442, "name": "bevorstehen", "type": "act", "subsets": [
+	{"id": 1443, "name": "hereinbrechen", "type": "act"}
+]},
+{"id": 1444, "name": "bewältigen", "type": "act", "subsets": [
+	{"id": 1445, "name": "erzielen", "type": "act"}
+]},
+{"id": 1446, "name": "definieren", "type": "act", "subsets": [
+	{"id": 1447, "name": "(etw.) festlegen", "type": "act"}
+]},
+{"id": 1448, "name": "digitalisieren", "type": "act", "subsets": [
+	{"id": 1449, "name": "einscannen", "type": "act"}
+]},
+{"id": 1450, "name": "durchlaufen", "type": "act", "subsets": [
+	{"id": 1451, "name": "(sich) unterwerfen", "type": "act"}
+]},
+{"id": 1452, "name": "einbringen", "type": "act", "subsets": [
+	{"id": 1453, "name": "etablieren", "type": "act"}
+]},
+{"id": 1454, "name": "erfüllen, eine Funktion", "type": "be", "subsets": [
+	{"id": 1455, "name": "(sich zu etw.) eignen", "type": "be"}
+]},
+{"id": 1456, "name": "falten", "type": "act", "subsets": [
+	{"id": 1457, "name": "zusammenfalten", "type": "act"}
+]},
+{"id": 1458, "name": "fassen", "type": "act", "subsets": [
+	{"id": 1459, "name": "zugreifen", "type": "act"}
+]},
+{"id": 1460, "name": "generalisieren", "type": "act", "subsets": [
+	{"id": 1461, "name": "abstrahieren", "type": "act"}
+]},
+{"id": 1462, "name": "glätten", "type": "act", "subsets": [
+	{"id": 1463, "name": "einebnen", "type": "act"}
+]},
+{"id": 1464, "name": "herabmindern", "type": "act", "subsets": [
+	{"id": 1465, "name": "puffern", "type": "act"}
+]},
+{"id": 1466, "name": "hereinkommen", "type": "act", "subsets": [
+	{"id": 1467, "name": "einsteigen", "type": "act"}
+]},
+{"id": 1468, "name": "herrichten", "type": "act", "subsets": [
+	{"id": 1469, "name": "ausstatten", "type": "act"}
+]},
+{"id": 1470, "name": "hoffen, auf etw.", "type": "be", "subsets": [
+	{"id": 1471, "name": "zuversichtlich sein", "type": "be"}
+]},
+{"id": 1472, "name": "(sich um etw.) kümmern", "type": "be", "subsets": [
+	{"id": 1473, "name": "pflegen", "type": "act"}
+]},
+{"id": 1474, "name": "leben", "type": "be", "subsets": [
+	{"id": 1475, "name": "verleben", "type": "be"}
+]},
+{"id": 1476, "name": "managen", "type": "act", "subsets": [
+	{"id": 1477, "name": "reorganisieren", "type": "act"}
+]},
+{"id": 1478, "name": "modellieren", "type": "act", "subsets": [
+	{"id": 1479, "name": "nachmodellieren", "type": "act"}
+]},
+{"id": 1480, "name": "(sich) orientieren", "type": "be", "subsets": [
+	{"id": 1481, "name": "ansteuern", "type": "act"}
+]},
+{"id": 1482, "name": "parametrisieren", "type": "act", "subsets": [
+	{"id": 1483, "name": "dimensionieren", "type": "act"}
+]},
+{"id": 1484, "name": "reservieren", "type": "act", "subsets": [
+	{"id": 1485, "name": "legen, zur Seite", "type": "act"}
+]},
+{"id": 1486, "name": "sein, in Ordnung", "type": "be", "subsets": [
+	{"id": 1487, "name": "sein, richtig", "type": "be", "subsets": [
+		{"id": 1488, "name": "sein, wahr", "type": "be"},
+		{"id": 1489, "name": "(sich) bewahrheiten", "type": "become"},
+		{"id": 1490, "name": "gelten", "type": "be"},
+		{"id": 1491, "name": "sein, unstrittig", "type": "be"},
+		{"id": 1492, "name": "(sich) erhärten", "type": "become"},
+		{"id": 1493, "name": "halten, für falsch", "type": "be"},
+		{"id": 1494, "name": "halten, für richtig", "type": "be"}
+	]}
+]},
+{"id": 1495, "name": "tolerieren", "type": "be", "subsets": [
+	{"id": 1496, "name": "akzeptieren", "type": "be"}
+]},
+{"id": 1497, "name": "veranlassen", "type": "act", "subsets": [
+	{"id": 1498, "name": "anfeuern", "type": "act", "subsets": [
+		{"id": 1499, "name": "antreiben", "type": "act"}
+	]}
+]},
+{"id": 1500, "name": "verarbeiten", "type": "act", "subsets": [
+	{"id": 1501, "name": "weiterverarbeiten", "type": "act"}
+]},
+{"id": 1502, "name": "vorhersagen", "type": "act", "subsets": [
+	{"id": 1503, "name": "zurückrechnen", "type": "act"}
+]},
+{"id": 1504, "name": "(auf etw.) weisen", "type": "be", "subsets": [
+	{"id": 1505, "name": "verweisen", "type": "act", "subsets": [
+		{"id": 1506, "name": "zitieren", "type": "act"},
+		{"id": 1507, "name": "setzen, Verweis", "type": "act"}
+	]}
+]},
+{"id": 1508, "name": "zerfließen", "type": "be", "subsets": [
+	{"id": 1509, "name": "abtauen", "type": "act"}
+]},
+{"id": 1510, "name": "zurückbauen", "type": "act", "subsets": [
+	{"id": 1511, "name": "abreißen", "type": "act"}
+]},
+{"id": 1512, "name": "erklären, Kandidatur", "type": "act"},
+{"id": 1513, "name": "nehmen, Verlauf", "type": "be"},
+{"id": 1514, "name": "abbestellen", "type": "act"},
+{"id": 1515, "name": "abernten", "type": "act"},
+{"id": 1516, "name": "abfertigen", "type": "act"},
+{"id": 1517, "name": "abgehen", "type": "act"},
+{"id": 1518, "name": "abmelden", "type": "act"},
+{"id": 1519, "name": "abspielen", "type": "act"},
+{"id": 1520, "name": "absprechen", "type": "be"},
+{"id": 1521, "name": "abspringen", "type": "act"},
+{"id": 1522, "name": "abzeichnen", "type": "act"},
+{"id": 1523, "name": "adressieren", "type": "act"},
+{"id": 1524, "name": "(sich) andeuten", "type": "be"},
+{"id": 1525, "name": "anlehnen", "type": "act"},
+{"id": 1526, "name": "archivieren", "type": "act"},
+{"id": 1527, "name": "aufnehmen, Nahrung", "type": "act"},
+{"id": 1528, "name": "aufstellen", "type": "act"},
+{"id": 1529, "name": "auftauen", "type": "act"},
+{"id": 1530, "name": "ausbleiben", "type": "be"},
+{"id": 1531, "name": "ausbrechen", "type": "act"},
+{"id": 1532, "name": "ausgestalten", "type": "act"},
+{"id": 1533, "name": "aushärten", "type": "become"},
+{"id": 1534, "name": "ausloben", "type": "act"},
+{"id": 1535, "name": "ausrollen", "type": "act"},
+{"id": 1536, "name": "ausschöpfen", "type": "act"},
+{"id": 1537, "name": "ausüben, Kraft", "type": "be"},
+{"id": 1538, "name": "automatisieren", "type": "act"},
+{"id": 1539, "name": "bedecken", "type": "be"},
+{"id": 1540, "name": "befolgen", "type": "act"},
+{"id": 1541, "name": "begleiten", "type": "act"},
+{"id": 1542, "name": "beglückwünschen", "type": "act"},
+{"id": 1543, "name": "begrüßen", "type": "act"},
+{"id": 1544, "name": "beherrschen", "type": "be"},
+{"id": 1545, "name": "beibehalten", "type": "be"},
+{"id": 1546, "name": "(sich auf etw.) belaufen", "type": "be"},
+{"id": 1547, "name": "bereichern", "type": "act"},
+{"id": 1548, "name": "bereitstellen, Leistung", "type": "act"},
+{"id": 1549, "name": "beschreiben", "type": "act"},
+{"id": 1550, "name": "bestatten", "type": "act"},
+{"id": 1551, "name": "(etw.) betanken", "type": "act"},
+{"id": 1552, "name": "betrachten", "type": "act"},
+{"id": 1553, "name": "betreffen", "type": "be"},
+{"id": 1554, "name": "betreiben, Aufwand", "type": "act"},
+{"id": 1555, "name": "(etw.) bewahren/erhalten", "type": "act"},
+{"id": 1556, "name": "bewirtschaften", "type": "act"},
+{"id": 1557, "name": "biegen", "type": "act"},
+{"id": 1558, "name": "binden", "type": "act"},
+{"id": 1559, "name": "brechen", "type": "act"},
+{"id": 1560, "name": "bringen, in Sicherheit", "type": "act"},
+{"id": 1561, "name": "danebenliegen", "type": "be"},
+{"id": 1562, "name": "darstellen", "type": "act"},
+{"id": 1563, "name": "dastehen", "type": "be"},
+{"id": 1564, "name": "decken", "type": "act"},
+{"id": 1565, "name": "delegieren", "type": "act"},
+{"id": 1566, "name": "downloaden", "type": "act"},
+{"id": 1567, "name": "dranhängen", "type": "act"},
+{"id": 1568, "name": "drücken", "type": "act"},
+{"id": 1569, "name": "durchführen, Inventur", "type": "act"},
+{"id": 1570, "name": "durchführen, Spedition", "type": "act"},
+{"id": 1571, "name": "durchschauen", "type": "be"},
+{"id": 1572, "name": "durchstechen", "type": "act"},
+{"id": 1573, "name": "dürfen", "type": "be"},
+{"id": 1574, "name": "(sich) einrichten", "type": "act"},
+{"id": 1575, "name": "(sich) einspielen", "type": "act"},
+{"id": 1576, "name": "eintakten", "type": "act"},
+{"id": 1577, "name": "eintreten, Sonderfall", "type": "act"},
+{"id": 1578, "name": "einweisen", "type": "act"},
+{"id": 1579, "name": "(etw.) einzigartig machen", "type": "act"},
+{"id": 1580, "name": "(sich) entladen", "type": "become"},
+{"id": 1581, "name": "(sich) erheben", "type": "act"},
+{"id": 1582, "name": "ernstnehmen", "type": "be"},
+{"id": 1583, "name": "(als etw.) erscheinen", "type": "be"},
+{"id": 1584, "name": "(sich auf etw.) erstrecken", "type": "be"},
+{"id": 1585, "name": "erteilen", "type": "act"},
+{"id": 1586, "name": "erteilen, Ausfertigung", "type": "act"},
+{"id": 1587, "name": "(etw.) erwarten", "type": "be"},
+{"id": 1588, "name": "erwecken, Anschein", "type": "be"},
+{"id": 1589, "name": "erzeugen", "type": "act"},
+{"id": 1590, "name": "erzielen, Gewinn", "type": "act"},
+{"id": 1591, "name": "eskalieren", "type": "be"},
+{"id": 1592, "name": "exportieren", "type": "act"},
+{"id": 1593, "name": "fakturieren", "type": "act"},
+{"id": 1594, "name": "fangen", "type": "act"},
+{"id": 1595, "name": "feiern", "type": "act"},
+{"id": 1596, "name": "fernhalten", "type": "act"},
+{"id": 1597, "name": "festhalten", "type": "be"},
+{"id": 1598, "name": "feststehen", "type": "be"},
+{"id": 1599, "name": "finden, Verbreitung", "type": "become"},
+{"id": 1600, "name": "fotografieren", "type": "act"},
+{"id": 1601, "name": "frankieren", "type": "act"},
+{"id": 1602, "name": "freilegen", "type": "act"},
+{"id": 1603, "name": "freirubbeln", "type": "act"},
+{"id": 1604, "name": "freisetzen", "type": "act"},
+{"id": 1605, "name": "fällen", "type": "act"},
+{"id": 1606, "name": "führen, Konto", "type": "be"},
+{"id": 1607, "name": "geben, Zusammenfassung", "type": "act"},
+{"id": 1608, "name": "genießen", "type": "be"},
+{"id": 1609, "name": "glauben", "type": "be"},
+{"id": 1610, "name": "(etw.) gründen", "type": "be"},
+{"id": 1611, "name": "haben, Thema", "type": "be"},
+{"id": 1612, "name": "(etw.) haben, in Beschlag", "type": "act"},
+{"id": 1613, "name": "(sich um etw.) handeln", "type": "be"},
+{"id": 1614, "name": "handhaben", "type": "act"},
+{"id": 1615, "name": "(sich) herausstellen", "type": "act"},
+{"id": 1616, "name": "hervorbrechen", "type": "act"},
+{"id": 1617, "name": "(sich) hinsetzen", "type": "act"},
+{"id": 1618, "name": "hinzubauen", "type": "act"},
+{"id": 1619, "name": "(sich) häufen", "type": "be"},
+{"id": 1620, "name": "(sich als etw.) identifizieren", "type": "be"},
+{"id": 1621, "name": "(sich mit etw.) identifizieren", "type": "be"},
+{"id": 1622, "name": "importieren", "type": "act"},
+{"id": 1623, "name": "indexieren", "type": "act"},
+{"id": 1624, "name": "individualisieren", "type": "act"},
+{"id": 1625, "name": "installieren", "type": "act"},
+{"id": 1626, "name": "interpretieren", "type": "act"},
+{"id": 1627, "name": "inventarisieren", "type": "act"},
+{"id": 1628, "name": "irreführen", "type": "act"},
+{"id": 1629, "name": "katalogisieren", "type": "act"},
+{"id": 1630, "name": "klicken", "type": "act"},
+{"id": 1631, "name": "kollabieren", "type": "become"},
+{"id": 1632, "name": "kommen, in Berührung", "type": "become"},
+{"id": 1633, "name": "kommen, zur Verhandlung", "type": "act"},
+{"id": 1634, "name": "kommissionieren", "type": "act"},
+{"id": 1635, "name": "kompilieren", "type": "act"},
+{"id": 1636, "name": "komprimieren", "type": "act"},
+{"id": 1637, "name": "konfektionieren", "type": "act"},
+{"id": 1638, "name": "konsolidieren", "type": "act"},
+{"id": 1639, "name": "kontieren", "type": "act"},
+{"id": 1640, "name": "kopieren", "type": "act"},
+{"id": 1641, "name": "korrelieren", "type": "be"},
+{"id": 1642, "name": "kuvertieren", "type": "act"},
+{"id": 1643, "name": "können", "type": "be"},
+{"id": 1644, "name": "lasern", "type": "act"},
+{"id": 1645, "name": "lassen", "type": "be"},
+{"id": 1646, "name": "legen, an den Tag", "type": "be"},
+{"id": 1647, "name": "leiden", "type": "be"},
+{"id": 1648, "name": "leisten", "type": "be"},
+{"id": 1649, "name": "leisten, Vorschub", "type": "be"},
+{"id": 1650, "name": "lesen", "type": "act"},
+{"id": 1651, "name": "liegen, im Bereich", "type": "be"},
+{"id": 1652, "name": "lotsen", "type": "act"},
+{"id": 1653, "name": "lüften", "type": "act"},
+{"id": 1654, "name": "machen", "type": "act"},
+{"id": 1655, "name": "machen, einen Schritt zurück", "type": "act"},
+{"id": 1656, "name": "machen, konsistent", "type": "act"},
+{"id": 1657, "name": "malern", "type": "act"},
+{"id": 1658, "name": "migrieren", "type": "act"},
+{"id": 1659, "name": "missbrauchen", "type": "act"},
+{"id": 1660, "name": "mitbestimmen", "type": "be"},
+{"id": 1661, "name": "miteinschließen", "type": "act"},
+{"id": 1662, "name": "moderieren", "type": "act"},
+{"id": 1663, "name": "mustern", "type": "act"},
+{"id": 1664, "name": "(in etw.) münden", "type": "be"},
+{"id": 1665, "name": "müssen", "type": "be"},
+{"id": 1666, "name": "nachholen", "type": "act"},
+{"id": 1667, "name": "nachreichen", "type": "act"},
+{"id": 1668, "name": "nachziehen", "type": "act"},
+{"id": 1669, "name": "nehmen, Aufstellung", "type": "become"},
+{"id": 1670, "name": "nehmen, Entwicklung", "type": "act"},
+{"id": 1671, "name": "(etw.) nehmen, in Beschlag", "type": "act"},
+{"id": 1672, "name": "niederschlagen", "type": "act"},
+{"id": 1673, "name": "normalisieren", "type": "act"},
+{"id": 1674, "name": "operationalisieren", "type": "act"},
+{"id": 1675, "name": "paraphrasieren", "type": "act"},
+{"id": 1676, "name": "pflügen", "type": "act"},
+{"id": 1677, "name": "pressen", "type": "act"},
+{"id": 1678, "name": "programmieren", "type": "act"},
+{"id": 1679, "name": "prämieren", "type": "act"},
+{"id": 1680, "name": "pumpen", "type": "act"},
+{"id": 1681, "name": "(mit etw.) reagieren", "type": "act"},
+{"id": 1682, "name": "reflektieren", "type": "be"},
+{"id": 1683, "name": "reiben", "type": "be"},
+{"id": 1684, "name": "retarifieren", "type": "act"},
+{"id": 1685, "name": "(auf etw.) richten", "type": "act"},
+{"id": 1686, "name": "rückstellen", "type": "act"},
+{"id": 1687, "name": "schlagen", "type": "act"},
+{"id": 1688, "name": "sedieren", "type": "act"},
+{"id": 1689, "name": "sein, Notfall", "type": "be"},
+{"id": 1690, "name": "sein, abholbereit", "type": "be"},
+{"id": 1691, "name": "sein, am Ende", "type": "be"},
+{"id": 1692, "name": "sein, aufwendig", "type": "be"},
+{"id": 1693, "name": "sein, ausgerichtet", "type": "be"},
+{"id": 1694, "name": "sein, auswählbar", "type": "be"},
+{"id": 1695, "name": "sein, belastend", "type": "be"},
+{"id": 1696, "name": "sein, einfach", "type": "be"},
+{"id": 1697, "name": "sein, ertragreich", "type": "be"},
+{"id": 1698, "name": "sein, gerecht", "type": "be"},
+{"id": 1699, "name": "sein, im Rahmen", "type": "be"},
+{"id": 1700, "name": "sein, im Wechsel", "type": "be"},
+{"id": 1701, "name": "sein, in Sicht", "type": "be"},
+{"id": 1702, "name": "sein, in Sorge", "type": "be"},
+{"id": 1703, "name": "sein, in der Diskussion", "type": "be"},
+{"id": 1704, "name": "sein, mobil", "type": "be"},
+{"id": 1705, "name": "sein, neutral", "type": "be"},
+{"id": 1706, "name": "sein, nützlich", "type": "be"},
+{"id": 1707, "name": "sein, offensichtlich sein", "type": "be"},
+{"id": 1708, "name": "sein, rechtens", "type": "be"},
+{"id": 1709, "name": "sein, schwach", "type": "be"},
+{"id": 1710, "name": "sein, sinnlos", "type": "be"},
+{"id": 1711, "name": "sein, sinnvoll", "type": "be"},
+{"id": 1712, "name": "sein, sorgfältig", "type": "be"},
+{"id": 1713, "name": "sein, vernünftig", "type": "be"},
+{"id": 1714, "name": "sein, vorsichtig", "type": "be"},
+{"id": 1715, "name": "sein, wirkungslos", "type": "be"},
+{"id": 1716, "name": "sein, zeitgemäß", "type": "be"},
+{"id": 1717, "name": "sein, zuverlässig", "type": "be"},
+{"id": 1718, "name": "setzen, Budget", "type": "act"},
+{"id": 1719, "name": "sicherstellen", "type": "be"},
+{"id": 1720, "name": "siegen", "type": "act"},
+{"id": 1721, "name": "simulieren", "type": "act"},
+{"id": 1722, "name": "spielen", "type": "act"},
+{"id": 1723, "name": "sponsern", "type": "act"},
+{"id": 1724, "name": "spreizen", "type": "act"},
+{"id": 1725, "name": "stehen, im Wettbewerb", "type": "be"},
+{"id": 1726, "name": "stehen, vor einer Herausforderung", "type": "be"},
+{"id": 1727, "name": "stärken", "type": "act"},
+{"id": 1728, "name": "synchen", "type": "act"},
+{"id": 1729, "name": "tanken (intr.)", "type": "act"},
+{"id": 1730, "name": "treten", "type": "act"},
+{"id": 1731, "name": "(sich) ummelden", "type": "act"},
+{"id": 1732, "name": "umnummerieren", "type": "act"},
+{"id": 1733, "name": "umreifen", "type": "act"},
+{"id": 1734, "name": "umwidmen", "type": "act"},
+{"id": 1735, "name": "unterschreiten", "type": "become"},
+{"id": 1736, "name": "uploaden", "type": "act"},
+{"id": 1737, "name": "verabschieden", "type": "act"},
+{"id": 1738, "name": "verbrauchen", "type": "act"},
+{"id": 1739, "name": "vereinnahmen", "type": "act"},
+{"id": 1740, "name": "vererben", "type": "act"},
+{"id": 1741, "name": "verhaften", "type": "act"},
+{"id": 1742, "name": "(sich) verhalten", "type": "be"},
+{"id": 1743, "name": "vermeiden", "type": "be"},
+{"id": 1744, "name": "vermitteln", "type": "act"},
+{"id": 1745, "name": "verpassen", "type": "be"},
+{"id": 1746, "name": "versehen", "type": "be"},
+{"id": 1747, "name": "versiegeln", "type": "act"},
+{"id": 1748, "name": "versteuern", "type": "act"},
+{"id": 1749, "name": "vertreten, Interesse", "type": "be"},
+{"id": 1750, "name": "verwalten", "type": "act"},
+{"id": 1751, "name": "verwirken", "type": "act"},
+{"id": 1752, "name": "voranstellen", "type": "act"},
+{"id": 1753, "name": "vorbeugen", "type": "be"},
+{"id": 1754, "name": "vorliegen, Ausnahme", "type": "be"},
+{"id": 1755, "name": "vorzeigen", "type": "act"},
+{"id": 1756, "name": "wegbrennen", "type": "act"},
+{"id": 1757, "name": "(sich) weigern", "type": "be"},
+{"id": 1758, "name": "(sich) weisen", "type": "act"},
+{"id": 1759, "name": "weisen", "type": "act"},
+{"id": 1760, "name": "werden, behandelt", "type": "be"},
+{"id": 1761, "name": "werden, bewusst", "type": "become"},
+{"id": 1762, "name": "werden, offenbar", "type": "become"},
+{"id": 1763, "name": "werden, sinnlos"},
+{"id": 1764, "name": "werden, sinnvoll", "type": "become"},
+{"id": 1765, "name": "werden, veranlasst", "type": "act"},
+{"id": 1766, "name": "widerspiegeln", "type": "be"},
+{"id": 1767, "name": "wiederholen", "type": "act"},
+{"id": 1768, "name": "(etw.) wiegen", "type": "act"},
+{"id": 1769, "name": "zeigen, Entgegenkommen", "type": "be"},
+{"id": 1770, "name": "ziehen, Bilanz", "type": "act"},
+{"id": 1771, "name": "zugehören", "type": "be"},
+{"id": 1772, "name": "zugestehen", "type": "act"},
+{"id": 1773, "name": "zurückberufen", "type": "act"},
+{"id": 1774, "name": "zusammenstürzen", "type": "be"},
+{"id": 1775, "name": "(sich etw.) zuziehen", "type": "act"},
+{"id": 1776, "name": "öffnen", "type": "act"},
+{"id": 1777, "name": "überbrücken", "type": "act"},
+{"id": 1778, "name": "überleiten", "type": "act"},
+{"id": 1779, "name": "übernehmen, Bürgschaft", "type": "act"},
+{"id": 1780, "name": "übersetzen", "type": "act"},
+{"id": 1781, "name": "überspringen", "type": "act"},
+{"id": 1782, "name": "überwachen", "type": "act"}
+]

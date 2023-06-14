@@ -82,6 +82,7 @@ The file synsets.json contains a list of synset specifications. Each synset JSON
 |---------|------|-------------|
 | id      | number | the synset id |
 | name    | string | a descriptive name |
+| type    | string | one of "act", "be", "become" |
 | subsets | list of synset objects | synsets that are deemed more specific than the current synset |
 
 This simple structure allows us to represent trees of synsets. Synsets can be purely synthetic, i. e. have no member frames at all, they even can be just for grouping purposes, e. g. they can represent domains in which verb frames usually make sense.

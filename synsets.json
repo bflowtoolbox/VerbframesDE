@@ -3,9 +3,9 @@
 	{"id": 2, "name": "sein, ansprechbar", "type": "be"},
 	{"id": 3, "name": "Antwort", "subsets": [
 		{"id": 4, "name": "antworten", "type": "act", "subsets": [
-			{"id": 5, "name": "geben, Auskunft", "type": "act"}
+			{"id": 5, "name": "Auskunft geben", "type": "act"}
 		]},
-		{"id": 6, "name": "erhalten, Antwort", "type": "act"},
+		{"id": 6, "name": "Antwort erhalten", "type": "act"},
 		{"id": 7, "name": "bleiben, unbeantwortet", "type": "be"}
 	]},
 	{"id": 8, "name": "Nachricht", "subsets": [
@@ -378,8 +378,8 @@
 	]},
 	{"id": 306, "name": "bekanntgeben, Entscheidung", "subsets": [
 		{"id": 307, "name": "erlassen, Bescheid", "type": "act"},
-		{"id": 308, "name": "bekanntgeben, negative Erlaubnis"},
-		{"id": 309, "name": "bekanntgeben, positive Auswahl", "type": "act"},
+		{"id": 308, "name": "negative Erlaubnis bekanntgeben"},
+		{"id": 309, "name": "positive Auswahl bekanntgeben", "type": "act"},
 		{"id": 310, "name": "mitteilen, Ablehung", "type": "act"}
 	]},
 	{"id": 311, "name": "anfragen, um Entscheidung", "subsets": [
@@ -424,7 +424,7 @@
 		{"id": 343, "name": "sein, in Gebrauch", "type": "be"}
 	]},
 	{"id": 344, "name": "sein, in Bearbeitung/Überarbeitung", "type": "be"},
-	{"id": 345, "name": "werden, eingesetzt", "type": "act"},
+	{"id": 345, "name": "eingesetzt werden", "type": "act"},
 	{"id": 346, "name": "haben, im Einsatz", "type": "act", "subsets": [
 		{"id": 347, "name": "verbauen", "type": "act"}
 	]},
@@ -435,7 +435,7 @@
 		{"id": 352, "name": "stellen, ruhend", "type": "act"}
 	]},
 	{"id": 353, "name": "werden, inaktiv", "type": "become"},
-	{"id": 354, "name": "ergreifen, Initiative", "type": "act"}
+	{"id": 354, "name": "ergreifen Initiative", "type": "act"}
 ]},
 {"id": 355, "name": "Organisationshierarchie", "subsets": [
 	{"id": 356, "name": "stehen, unter jmds. Leitung", "type": "be"},
@@ -663,7 +663,7 @@
 	{"id": 541, "name": "drannehmen", "type": "act"},
 	{"id": 542, "name": "kommen, an die Reihe", "type": "act"},
 	{"id": 543, "name": "sortieren", "type": "act", "subsets": [
-		{"id": 544, "name": "ordnen, alphabetisch", "type": "act"}
+		{"id": 544, "name": "alphabetisch ordnen", "type": "act"}
 	]},
 	{"id": 545, "name": "ordnen", "type": "act"},
 	{"id": 546, "name": "umpositionieren", "type": "act"}
@@ -794,7 +794,7 @@
 ]},
 {"id": 649, "name": "Dokumentieren", "subsets": [
 	{"id": 650, "name": "notieren", "type": "act"},
-	{"id": 651, "name": "führen, Buch", "type": "act"},
+	{"id": 651, "name": "Buch führen", "type": "act"},
 	{"id": 652, "name": "vermerken", "type": "act", "subsets": [
 		{"id": 653, "name": "nachtragen", "type": "be"}
 	]},
@@ -872,7 +872,7 @@
 	{"id": 710, "name": "sein, bedeutend", "type": "be", "subsets": [
 		{"id": 711, "name": "sein, ausschlaggebend", "type": "be"}
 	]},
-	{"id": 712, "name": "spielen, Rolle", "type": "act"},
+	{"id": 712, "name": "Rolle spielen", "type": "act"},
 	{"id": 713, "name": "ansehen, als bedeutend", "type": "act"},
 	{"id": 714, "name": "sein, unbedeutend", "type": "be", "subsets": [
 		{"id": 715, "name": "diskriminieren", "type": "be"}
@@ -973,7 +973,7 @@
 		{"id": 796, "name": "erhalten, Zuweisung", "type": "act"}
 	]},
 	{"id": 797, "name": "einwerben (Finanzen)", "type": "act"},
-	{"id": 798, "name": "abgeben, Gebot", "type": "act", "subsets": [
+	{"id": 798, "name": "anbieten, Gebot", "type": "act", "subsets": [
 		{"id": 799, "name": "überbieten", "type": "act"},
 		{"id": 800, "name": "unterbieten", "type": "act"}
 	]},
@@ -1224,7 +1224,7 @@
 ]},
 {"id": 1000, "name": "Kenntnis", "subsets": [
 	{"id": 1001, "name": "haben, Kenntnis", "type": "be", "subsets": [
-		{"id": 1002, "name": "sein, auf dem Laufenden", "type": "be"}
+		{"id": 1002, "name": "auf dem Laufenden sein", "type": "be"}
 	]},
 	{"id": 1003, "name": "(etw.) erfahren", "type": "act"},
 	{"id": 1004, "name": "werden, bekannt", "type": "act"},
@@ -1234,7 +1234,7 @@
 	{"id": 1007, "name": "entgegenstellen", "type": "act"},
 	{"id": 1008, "name": "(sich) erwehren", "type": "be"},
 	{"id": 1009, "name": "(sich etw.) gegenübersehen", "type": "be"},
-	{"id": 1010, "name": "leisten, Widerstand", "type": "be"}
+	{"id": 1010, "name": "Widerstand leisten", "type": "be"}
 ]},
 {"id": 1011, "name": "Ordnungswidrigkeit", "subsets": [
 	{"id": 1012, "name": "handeln, ordnungswidrig", "type": "act", "subsets": [
@@ -1306,7 +1306,7 @@
 		{"id": 1065, "name": "werden, unterschiedlich", "type": "become"},
 		{"id": 1066, "name": "sein, unterschiedlich", "type": "be"},
 		{"id": 1067, "name": "divergieren", "type": "be"},
-		{"id": 1068, "name": "treffen, Unterscheidung", "type": "be"}
+		{"id": 1068, "name": "unterscheiden", "type": "be"}
 	]}
 ]},
 {"id": 1069, "name": "Versteigerung", "subsets": [
@@ -1345,7 +1345,7 @@
 		{"id": 1096, "name": "schwören", "type": "act"}
 	]},
 	{"id": 1097, "name": "erhalten, Versprechen", "type": "act"},
-	{"id": 1098, "name": "halten, Versprechen", "type": "be"},
+	{"id": 1098, "name": "Versprechen halten", "type": "be"},
 	{"id": 1099, "name": "werden, garantiert", "type": "become"}
 ]},
 {"id": 1100, "name": "Zwang", "subsets": [
@@ -1494,7 +1494,7 @@
 		{"id": 1210, "name": "mitgestalten", "type": "be"}
 	]},
 	{"id": 1211, "name": "beitragen", "type": "act", "subsets": [
-		{"id": 1212, "name": "beitragen, Eigenschaft/Wissen", "type": "act"}
+		{"id": 1212, "name": "Eigenschaft/Wissen beitragen", "type": "act"}
 	]},
 	{"id": 1213, "name": "teilnehmen", "type": "be"}
 ]},
@@ -1917,8 +1917,8 @@
 {"id": 1510, "name": "zurückbauen", "type": "act", "subsets": [
 	{"id": 1511, "name": "abreißen", "type": "act"}
 ]},
-{"id": 1512, "name": "erklären, Kandidatur", "type": "act"},
-{"id": 1513, "name": "nehmen, Verlauf", "type": "be"},
+{"id": 1512, "name": "Kandidatur erklären", "type": "act"},
+{"id": 1513, "name": "Verlauf nehmen", "type": "be"},
 {"id": 1514, "name": "abbestellen", "type": "act"},
 {"id": 1515, "name": "abernten", "type": "act"},
 {"id": 1516, "name": "abfertigen", "type": "act"},
